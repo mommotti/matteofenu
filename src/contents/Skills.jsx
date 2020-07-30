@@ -3,7 +3,7 @@ import Tiltskill from '../components/Tiltskill'
 class Skills extends Component {
     render() {
         return (
-            <div className="condiv">
+            <div className="condiv skills-height">
                 <h1 className="subtopic">My Skills:</h1>
                 <div className="skill-wrapper">
                     <div>
