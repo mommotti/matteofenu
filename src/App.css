@@ -42,7 +42,7 @@ nav
   justify-content: center;
   flex-direction: column;
   align-items: center;
-  
+  text-align: center;
 }
 .profilepic
 {
@@ -86,6 +86,8 @@ h1,h2,h3,h4,p{
 }
 .social
 {
+  transform: translateX(45px);
+  align-self: center;
   position: absolute;
   margin-top: 20px;
   display: flex;
@@ -95,11 +97,11 @@ h1,h2,h3,h4,p{
 {
   padding-right: 30px;
   font-size: 25px;
-  color: #9a9b9c;
+  color: #98a8ec;
 }
 .social i:hover
 {
-  color: #ffffff;
+  color: #667eea;
 }
 
 .skill-wrapper {
