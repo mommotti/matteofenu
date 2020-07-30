@@ -18,7 +18,6 @@ body{
 }
 .App
 {
-  overflow: hidden;
   position: relative;
   display: flex;
   width: 100vw;
@@ -98,7 +97,7 @@ h1,h2,h3,h4,p{
 }
 .social
 {
-  transform: translateX(45px);
+  padding-left: 35px;
   align-self: center;
   position: absolute;
   margin-top: 20px;
@@ -136,8 +135,9 @@ h1,h2,h3,h4,p{
 
 
 .copy{
-
-  display: inline-block;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   text-align: center;
   margin-left: auto;
   margin-right: auto;
@@ -220,7 +220,8 @@ h1,h2,h3,h4,p{
   }
   .social
   {
-    left:0;
+    padding-left:0;
+    padding-bottom: 30px;
     width: 100vw;
     display: flex;
     justify-content: space-around;

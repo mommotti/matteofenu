@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import Social from './components/Social'
 import './App.css';
 import {
   BrowserRouter as Router, Route,
@@ -43,10 +44,7 @@ class App extends Component {
           <Route path="/contact">
             <Contact />
           </Route>
-          <div className="copy">
-            <hr></hr>
-            <p>&copy; 2020 Matteo Fenu</p>
-          </div>
+          <Social />
         </div>
       </Router >
     )
