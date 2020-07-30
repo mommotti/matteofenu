@@ -38,7 +38,7 @@ nav
   flex:var(--sidebar-flex);
   background: #667eea;
   background:  linear-gradient(#667eea 20%, #764ba2 100%);
-  max-height: 100vh;
+  min-height: 100vh;
 }
 .condiv
 {
@@ -101,7 +101,6 @@ h1,h2,h3,h4,p{
   padding-left: 35px;
   align-self: center;
   position: absolute;
-  margin-top: 20px;
   display: flex;
   bottom: 60px;
 }
@@ -121,7 +120,6 @@ h1,h2,h3,h4,p{
   display: flex;
   justify-content: space-evenly;
   align-content: flex-start;
-  height: 100%;
 }
 .icon{
   color: #667eea ;
@@ -139,7 +137,6 @@ h1,h2,h3,h4,p{
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: flex-start;
   text-align: center;
   margin-left: auto;
   margin-right: auto;
@@ -184,6 +181,7 @@ h1,h2,h3,h4,p{
   .condiv
   {
     padding: 50px ;
+    min-height: 100%;
   }
   .skill-wrapper {
     flex-direction: column;
@@ -192,8 +190,8 @@ h1,h2,h3,h4,p{
     border-left: none;
     border-bottom: 1px solid #764ba2;
     height: 0;
-    margin-top: 60px;
-    margin-bottom: 30px;
+    margin-top: 50px;
+    margin-bottom: 20px;
     width: 150px;
     align-self: center;
   }
@@ -203,14 +201,16 @@ h1,h2,h3,h4,p{
   .skill-wrapper div>h3 {
     text-align: center;
   }
+  .skill-grid{
+    transform: translateX(-10px);
+  }
   nav{
     display: block;
-    position:absolute;
+    position:fixed;
     z-index: 10;
     top: 0%;
     left: 0%;
     width: 50%;
-    height: 100vh;
     border-right:  linear-gradient(#667eea 20%, #764ba2 100%);
     opacity: 0.9;
     padding: 30px;

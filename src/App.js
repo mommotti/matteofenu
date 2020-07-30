@@ -44,7 +44,7 @@ class App extends Component {
           <Route path="/contact">
             <Contact />
           </Route>
-          <Social />g
+          <Social />
         </div>
       </Router >
     )
