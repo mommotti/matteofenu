@@ -21,7 +21,7 @@ class Navbar extends Component {
             <>
                 <i onClick={() => this.setState({ active: !this.state.active })} class="fa fa-bars  fa-2x" aria-hidden="true"></i>
                 <nav className={this.state.active ? 'appear' : null}>
-                    <ul>
+                    <ul onClick={() => this.setState({ active: !this.state.active })}>
                         <Navitem item="Home" tolink="/" activec={this.activeitem}></Navitem>
                         <Navitem item="About" tolink="/about" activec={this.activeitem}></Navitem>
                         <Navitem item="Projects" tolink="/projects" activec={this.activeitem}></Navitem>
