@@ -115,19 +115,18 @@ h1,h2,h3,h4,p{
 }
 .skill-grid{
   display: grid;
-  width: 50%;
   grid-template-columns: 1fr 1fr 1fr;
   grid-gap: 30px;
-  align-items: center;
-  justify-items: center;
+  justify-content: center;
+  align-content: center;
 }
-.skill-section-align {
+/* .skill-section-align {
   display: flex;
   flex-direction: column;
   align-items: center;
   width: 100%;
   height: 100%;
-}
+} */
 
 .copy{
   color:#764ba2;
