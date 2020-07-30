@@ -18,15 +18,18 @@ class Navbar extends Component {
     };
     render() {
         return (
-            <nav>
-                <ul>
-                    <Navitem item="Home" tolink="/" activec={this.activeitem}></Navitem>
-                    <Navitem item="About" tolink="/about" activec={this.activeitem}></Navitem>
-                    <Navitem item="Projects" tolink="/projects" activec={this.activeitem}></Navitem>
-                    <Navitem item="Skills" tolink="/skills" activec={this.activeitem}></Navitem>
-                    <Navitem item="Contact" tolink="/contact" activec={this.activeitem}></Navitem>
-                </ul>
-            </nav>
+            <>
+                <i onClick={() => this.setState({ active: !this.state.active })} class="fa fa-bars  fa-2x" aria-hidden="true"></i>
+                <nav className={this.state.active ? 'appear' : null}>
+                    <ul>
+                        <Navitem item="Home" tolink="/" activec={this.activeitem}></Navitem>
+                        <Navitem item="About" tolink="/about" activec={this.activeitem}></Navitem>
+                        <Navitem item="Projects" tolink="/projects" activec={this.activeitem}></Navitem>
+                        <Navitem item="Skills" tolink="/skills" activec={this.activeitem}></Navitem>
+                        <Navitem item="Contact" tolink="/contact" activec={this.activeitem}></Navitem>
+                    </ul>
+                </nav>
+            </>
         )
     }
 }
