@@ -59,6 +59,7 @@ nav
 }
 .profilepic
 {
+  box-shadow: 0 -6px 5px rgba(102, 126, 234,0.3), 0 6px 5px rgba(118, 75, 162,0.3);
   border-radius: 50%;
   width: 200px;
   margin: 30px;
@@ -73,13 +74,15 @@ nav ul{
 }
 nav ul li
 {
-  border-radius: 8px;
-  margin:40px;
+  font-size: 1.1em;
+  margin: 20px 40px;
 }
-nav ul li:hover{
-  background-color: rgba(0, 0, 0, 0.1);
-  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1);
+nav ul hr {
+  border: none;
+  border-bottom: 2px solid rgba(255, 255, 255,0.5);
+  opacity: 0.5;
 }
+
 
 a
 {
@@ -201,7 +204,7 @@ h1,h2,h3,h4,p{
     min-height: 100%;
   }
   .skills-height{
-    height: 108vh;
+    height: 110vh;
   }
   .skill-wrapper {
     flex-direction: column;

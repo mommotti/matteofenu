@@ -23,9 +23,13 @@ class Navbar extends Component {
                 <nav className={this.state.active ? 'appear' : null}>
                     <ul onClick={() => this.setState({ active: !this.state.active })}>
                         <Navitem item="Home" tolink="/" activec={this.activeitem}></Navitem>
+                        <hr />
                         <Navitem item="About" tolink="/about" activec={this.activeitem}></Navitem>
+                        <hr />
                         <Navitem item="Projects" tolink="/projects" activec={this.activeitem}></Navitem>
+                        <hr />
                         <Navitem item="Skills" tolink="/skills" activec={this.activeitem}></Navitem>
+                        <hr />
                         <Navitem item="Contact" tolink="/contact" activec={this.activeitem}></Navitem>
                     </ul>
                 </nav>

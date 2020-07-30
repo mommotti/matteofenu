@@ -5,7 +5,7 @@ class About extends Component {
             <div className="condiv skills-height">
                 <h1 className="subtopic">About Me</h1>
                 <h4>Hello,</h4>
-                <h1>I'm Matteo Fenu</h1>
+                <h2>I'm Matteo Fenu</h2>
                 <h3>Junior Web <u className="dev">Developer</u> | UI/UX <u className="des">Designer</u>
                 </h3>
                 <br></br>
