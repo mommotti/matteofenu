@@ -34,6 +34,10 @@ function App() {
         <Route path="/contact">
           <Contact />
         </Route>
+        <div className="copy">
+          <hr></hr>
+          <p>&copy; 2019 Matteo Fenu</p>
+        </div>
       </div>
     </Router >
   )

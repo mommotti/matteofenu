@@ -33,6 +33,7 @@ nav
   padding: 100px ;
   background-color: #f4f5f9;
   flex:var(--condiv-flex);
+  position: relative;
 }
 
 .home
@@ -64,7 +65,14 @@ nav ul{
 }
 nav ul li
 {
+  border-radius: 8px;
   margin:40px;
+}
+nav ul li:hover{
+  border-left: 2px solid  rgba(0, 0, 0, 0.1);
+  border-right: 2px solid  rgba(0, 0, 0, 0.1);
+  background-color: rgba(0, 0, 0, 0.1);
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1);
 }
 
 a
@@ -104,6 +112,15 @@ h1,h2,h3,h4,p{
 {
   list-style-type:none;
   margin:30px;
+}
+.skill-wrapper {
+  background-color:;
+}
+.copy{
+  position:absolute;
+  top:95%;
+  left: 55%;
+  width: 200px;
 }
 
 /*  MEDIA  */
