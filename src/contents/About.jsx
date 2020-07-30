@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 class About extends Component {
     render() {
         return (
-            <div className="condiv">
+            <div className="condiv skills-height">
                 <h1 className="subtopic">About Me</h1>
                 <h4>Hello,</h4>
                 <h1>I'm Matteo Fenu</h1>
