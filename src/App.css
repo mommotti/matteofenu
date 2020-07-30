@@ -141,7 +141,12 @@ h1,h2,h3,h4,p{
   align-items: center;
 }
 
-
+.about_me{
+  padding: 10px;
+  border-radius: 10px;
+  background:  #faf7f7 ;
+  box-shadow: 0 -4px 10px rgba(102, 126, 234,0.2), 0 4px 10px rgba(118, 75, 162,0.2);
+}
 .copy{
   display: flex;
   flex-direction: column;

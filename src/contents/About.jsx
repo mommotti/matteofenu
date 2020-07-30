@@ -6,16 +6,16 @@ class About extends Component {
                 <h1 className="subtopic">About Me</h1>
                 <h4>Hello,</h4>
                 <h1>I'm Matteo Fenu</h1>
-                <h3>Junior Full Stack Web <u>Developer</u> | UI/UX <u>Designer</u>
+                <h3>Junior Web <u className="dev">Developer</u> | UI/UX <u className="des">Designer</u>
                 </h3>
                 <br></br>
-                <p>
-                    I'm a Junior web developer with a great passion for UX and UI.
+                <p className="about_me">
+                    I have a great passion for UX and UI.
                     I've been using Photoshop for a while and I'm now studying web development via Udemy and Youtube!
-                    The tools I use for designing:
+                    The tools I use to design:
                     Photoshop, Illustrator, After Effects and Adobe Xd.
                     The technologies I use:
-                    HTML5, CSS3, JavaScript, VueJS, ReactJS, NodeJS
+                    HTML5, CSS3, JavaScript, VueJS, ReactJS, NodeJS and more!
             </p>
             </div>)
     }

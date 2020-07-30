@@ -6,7 +6,7 @@ class Home extends Component {
             <div className="condiv home">
                 <img src={profilepic} className="profilepic">
                 </img>
-                <p>Hi, I'm Matteo Fenu, a junior web developer</p>
+                <p>Hi, I'm Matteo Fenu, Junior Web <u className="dev">Developer</u> | UI/UX <u className="des">Designer</u></p>
             </div>)
     }
 }
