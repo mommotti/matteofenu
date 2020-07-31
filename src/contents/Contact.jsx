@@ -14,14 +14,24 @@ class Contact extends Component {
                     <p>
                         <label>Your Email: <input type="email" name="email" /></label>
                     </p>
-                    <p>
+                    {/* <p>
                         <label>Your Role: <select name="role[]" multiple>
-                            <option value="leader">Leader</option>
-                            <option value="follower">Follower</option>
-                        </select></label>
-                    </p>
+                            <option value="inquire">Inquire</option>
+                            <option value="other">Other</option>
+                        </select>
+                        </label>
+                    </p> */}
+
+                    <label for="inquire">Inquire</label>
+                    <input type="radio" id="inquire" name="role" value="inquire"></input>
+                    <label for="other">Other</label>
+                    <input type="radio" id="other" name="role" value="other"></input>
+
                     <p>
                         <label>Message: <textarea name="message"></textarea></label>
+                    </p>
+                    <p>
+                        <div class="captcha" data-netlify-recaptcha="true"></div>
                     </p>
                     <p>
                         <button type="submit">Send</button>
