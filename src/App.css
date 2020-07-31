@@ -308,6 +308,7 @@ textarea{
 
   .mf-form > form {
     width: 250px;
+    height: 600px;
   }
   .vl {
     border-left: none;
