@@ -10,8 +10,10 @@ class Social extends Component {
                     <a href="https://www.linkedin.com/in/fenumatteo/" target="_blank"><i class="fab fa-linkedin-in"></i></a>
                     <a href="https://twitter.com/mommottee" target="_blank"><i class="fab fa-twitter"></i></a>
                 </div>
-                <hr></hr>
-                <p>&copy; 2020 Matteo Fenu</p>
+                <div copy-hr>
+                    <hr class="social-distancing"></hr>
+                    <p>&copy; 2020 Matteo Fenu</p>
+                </div>
             </div>
 
         )

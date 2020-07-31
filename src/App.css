@@ -42,8 +42,8 @@ nav
 .condiv
 {
   padding: 100px;
-  background: url("./img/form-top.svg") top left no-repeat, url("./img/form-bot.svg") bottom right no-repeat, white;
   background-color: #faf7f7;
+  background: url("./img/form-top.svg") top left no-repeat, url("./img/form-bot.svg") bottom right no-repeat;
   flex:var(--condiv-flex);
   position: relative;
   min-height: 100vh;
@@ -112,7 +112,7 @@ a
 .subtopic
 {
   margin:10px 10px 30px 10px !important;
-  color: rgb(149, 149, 149);
+  color: rgb(116, 116, 116);
 }
 p{
   font-size: var(--fontsize-p);
@@ -128,6 +128,7 @@ h1,h2,h3,h4,p{
   display: flex;
   bottom: 60px;
 }
+
 .social i
 {
   margin-right: 30px;
@@ -246,29 +247,64 @@ textarea{
 .copy{
   display: flex;
   flex-direction: column;
-  justify-content: flex;
+  justify-content: center;
   text-align: center;
+  align-items: center;
   margin-left: auto;
   margin-right: auto;
-  width: 100%;
+  width: 300px;
+  left: 52%;
   position: absolute !important;;
   bottom: 0;
   margin-bottom: 0 !important;
   color:#cebfdd;
 
 }
-.copy hr { 
+
+.social-distancing {
   display: block;
-    height: 1px;
-    border: 0;
-    border-top: 1px solid#cebfdd;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid#cebfdd;
+  align-self: center;
 }
 
+.copy-hr{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 .vl {
   align-self: center;
   border-left: 2px solid#cebfdd;
   height: 250px;
 }
+
+/* SCROLLBAR */
+
+/* width */
+::-webkit-scrollbar {
+  width: 15px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #cebfdd;
+  border-left: 1px solid #8d8aeb;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #667eea;
+  border-radius: 5px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #6866ea;
+}
+
+
 
 /*  MEDIA  */
 
@@ -285,6 +321,10 @@ textarea{
  .fa-bars:active{
    color:#764ba2;
  }
+ .copy{
+  width: 100%;
+  left: 0%;
+}
   .sidebar
   {
     padding: 30px;
@@ -361,5 +401,8 @@ textarea{
   .social i
   {
     margin-right: 0px;
+  }
+  .social-distancing{
+    width: 250px;
   }
 }
