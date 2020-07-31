@@ -33,6 +33,7 @@ class Contact extends Component {
                         </p>
                         <p>
                         </p>
+
                         <p>
                             <button className="btn" type="submit">Send</button>
                         </p>
