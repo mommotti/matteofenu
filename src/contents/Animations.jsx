@@ -1,10 +1,23 @@
-import React, { Component } from 'react';
-class Animations extends Component {
-    render() {
-        return (
-            <div className="condiv">
-                <h1>Animations Page</h1>
-            </div>)
-    }
+import React from 'react';
+import Lottie from 'react-lottie';
+import Animation1 from '../img/Lotties/dataCube.json';
+export default function App() {
+    const defaultOptions = {
+        loop: true,
+        autoplay: true,
+        animationData: Animation1,
+        rendererSettings: {
+            preserveAspectRatio: "xMidYMid slice"
+        }
+    };
+
+    return (
+        <div>
+            <Lottie
+                options={defaultOptions}
+                height={400}
+                width={400}
+            />
+        </div>
+    );
 }
-export default Animations
