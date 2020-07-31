@@ -7,12 +7,14 @@ class Contact extends Component {
                 <div className="mf-form">
                     <form name="contact" method="POST" data-netlify="true" autocomplete="off" data-netlify-recaptcha="true">
                         <input type="hidden" name="form-name" value="contact" />
+                        <p className="input-p"><label>Your Name:</label></p>
                         <p>
-                            <label>Your Name: <input className="input-info" type="text" name="name" /></label>
+                            <input className="input-info" type="text" name="name" />
                         </p>
                         <hr className="form-hr" />
+                        <p className="input-p"><label>Your Email:</label></p>
                         <p>
-                            <label>Your Email: <input className="input-info" type="email" name="email" /></label>
+                            <input className="input-info" type="email" name="email" />
                         </p>
                         <hr className="form-hr" />
                         <div>

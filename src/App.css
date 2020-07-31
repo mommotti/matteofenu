@@ -191,11 +191,14 @@ border-radius: 10px;
   cursor: pointer;
   background: linear-gradient(90deg, rgba(147,164,241,1) 0%, rgba(126,96,157,1) 100%); 
 }
+.input-p{
+  margin-bottom: 0;
+}
 .input-info{
   font-size: 0.8em;
   padding-left: 10px;
   height: 30px;
-  width: 150px;
+  width: 200px;
   border-radius: 10px;
   border: 2px solid rgba(118, 75, 162,0.7);
   font-family: 'Nunito', sans-serif;
@@ -205,6 +208,7 @@ textarea{
   border: 2px solid rgba(118, 75, 162,0.7);
   border-radius: 10px;
   padding:5px;
+  margin-top: 10px;
   font-family: 'Nunito', sans-serif;
   font-size: 0.9em;
   transform: translateX(-30%);
@@ -226,7 +230,7 @@ textarea{
   border: 2px solid #667eea;
   padding:20px;
   width: 300px;
-  height: 550px;
+  height: 590px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -304,7 +308,6 @@ textarea{
 
   .mf-form > form {
     width: 250px;
-    height: 590px;
   }
   .vl {
     border-left: none;
