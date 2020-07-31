@@ -45,6 +45,7 @@ nav
   background-color: #faf7f7;
   flex:var(--condiv-flex);
   position: relative;
+  height: 100%;
 }
 
 .home
