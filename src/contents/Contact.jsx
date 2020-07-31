@@ -6,7 +6,7 @@ class Contact extends Component {
                 <h1 className="subtopic">Contact Me</h1>
                 <p>email: matfen97@gmail.com</p>
 
-                <form name="contact" method="POST" data-netlify="true">
+                <form name="thank-you" method="POST" data-netlify="true">
                     <input type="hidden" name="form-name" value="contact" />
                     <p>
                         <label>Your Name: <input type="text" name="name" /></label>
