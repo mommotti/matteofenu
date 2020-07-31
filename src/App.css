@@ -305,9 +305,7 @@ textarea{
   .mf-form{
     min-height: 110vh;
   }
-.btn{
-  transform: translateY(-5px);
-}
+
   .mf-form > form {
     width: 250px;
   }
