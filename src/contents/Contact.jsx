@@ -14,7 +14,7 @@ class Contact extends Component {
                         <hr className="form-hr" />
                         <p className="input-p"><label>Your Email:</label></p>
                         <p>
-                            <input className="input-info" type="email" name="email" />
+                            <input className="input-info " type="email" name="email" />
                         </p>
                         <hr className="form-hr" />
                         <div>
