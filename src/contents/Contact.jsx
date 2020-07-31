@@ -5,7 +5,7 @@ class Contact extends Component {
             <div className="condiv">
                 <h1 className="subtopic">Contact Me</h1>
                 <div className="mf-form">
-                    <form action="./Contact.jsx" name="contact" method="POST" data-netlify="true" autocomplete="off">
+                    <form action="/" name="contact" method="POST" data-netlify="true" autocomplete="off">
                         <input type="hidden" name="form-name" value="contact" />
                         <p className="input-p"><label>Your Name:</label></p>
                         <p>
