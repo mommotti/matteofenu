@@ -144,7 +144,7 @@ h1,h2,h3,h4,p{
   color: #667eea;
 }
 .des{
-  color: #764ba2
+  color: #764ba2;
 }
 .skill-wrapper {
   width: 100%;
@@ -173,6 +173,69 @@ h1,h2,h3,h4,p{
   background:  #faf7f7 ;
   box-shadow: 0 -4px 10px rgba(102, 126, 234,0.2), 0 4px 10px rgba(118, 75, 162,0.2);
 }
+.mf-form{
+  margin-top: 100px;
+  display: flex;
+  justify-content: center;
+}
+.btn{ 
+  color: white;
+  font-size: 1em;
+  background: linear-gradient(90deg, rgba(102,126,234,1) 0%, rgba(118,75,162,1) 100%); 
+  border:none;
+width: 200px;
+height: 50px;
+border-radius: 10px;
+}
+.btn:hover{
+  cursor: pointer;
+  background: linear-gradient(90deg, rgba(147,164,241,1) 0%, rgba(126,96,157,1) 100%); 
+}
+.input-info{
+  height: 30px;
+  border-radius: 10px;
+  border: 2px solid rgba(118, 75, 162,0.7);
+  font-family: 'Nunito', sans-serif;
+
+}
+textarea{
+  border: 2px solid rgba(118, 75, 162,0.7);
+  border-radius: 10px;
+  padding:5px;
+  font-family: 'Nunito', sans-serif;
+  font-size: 0.8em;
+  transform: translateX(-30%);
+  width: 200px;
+  height: 150px;
+}
+.form-hr{
+  display: block;
+  margin: 10px 0;
+  height: 1px;
+  width: 50%;
+  border: 0;
+  border-top: 1px solid#cebfdd;
+}
+.mf-form > form {
+  font-family: 'Nunito', sans-serif;
+  background: rgba(102, 126, 234,0.1);
+  border-radius: 10px;
+  border: 2px solid #667eea;
+  padding:20px;
+  width: 300px;
+  height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items:center;
+  }
+  .align-radio{
+    margin: 0;
+    margin-left:10px;
+    width: 100px;
+    display: flex;
+    justify-content: space-between;
+  }
 .copy{
   display: flex;
   flex-direction: column;
@@ -231,6 +294,9 @@ h1,h2,h3,h4,p{
   }
   .skill-wrapper {
     flex-direction: column;
+  }
+  .mf-form > form {
+    width: 250px;
   }
   .vl {
     border-left: none;
