@@ -13,15 +13,13 @@
   padding: 0;
 }
 body{
-  
   font-family: 'Nunito', sans-serif;
+  height: 100vh;
 }
 .App
 {
   position: relative;
   display: flex;
-  width: 100vw;
-  min-height: 100vh;
 }
 .fa-bars {
   cursor: pointer;
@@ -38,11 +36,11 @@ nav
   flex:var(--sidebar-flex);
   background: #667eea;
   background:  linear-gradient(#667eea 20%, #764ba2 100%);
-  min-height: 100vh;
+  height: 100vh;
 }
 .condiv
 {
-  padding: 100px ;
+  padding: 100px;
   background: url("./img/form-top.svg") top left no-repeat, url("./img/form-bot.svg") bottom right no-repeat, white;
   background-color: #faf7f7;
   flex:var(--condiv-flex);
