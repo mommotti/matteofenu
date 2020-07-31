@@ -5,16 +5,14 @@ class Contact extends Component {
             <div className="condiv">
                 <h1 className="subtopic">Contact Me</h1>
                 <div className="mf-form">
-                    <form name="contact" method="POST" data-netlify="true" autocomplete="off">
+                    <form name="contact" method="POST" data-netlify="true" autocomplete="off" data-netlify-recaptcha="true">
                         <input type="hidden" name="form-name" value="contact" />
-                        <p className="input-p"><label>Your Name:</label></p>
                         <p>
-                            <input className="input-info" type="text" name="name" />
+                            <label>Your Name: <input className="input-info" type="text" name="name" /></label>
                         </p>
                         <hr className="form-hr" />
-                        <p className="input-p"><label>Your Email:</label></p>
                         <p>
-                            <input className="input-info " type="email" name="email" />
+                            <label>Your Email: <input className="input-info" type="email" name="email" /></label>
                         </p>
                         <hr className="form-hr" />
                         <div>
@@ -28,12 +26,13 @@ class Contact extends Component {
                             </p>
                         </div>
                         <hr className="form-hr" />
-                        <p className="input-p"> <label>Message:</label></p>
-                        <textarea name="message"></textarea>
-
-                        <p>
+                        <p className="align-radio">
+                            <label>Message: <textarea name="message"></textarea></label>
                         </p>
-
+                        <p>
+                            <div class="captcha" data-netlify-recaptcha="true"></div>
+                        </p>
+                        <div data-netlify-recaptcha="true"></div>
                         <p>
                             <button className="btn" type="submit">Send</button>
                         </p>
