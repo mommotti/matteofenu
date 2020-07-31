@@ -36,8 +36,9 @@ nav
   flex:var(--sidebar-flex);
   background: #667eea;
   background:  linear-gradient(#667eea 20%, #764ba2 100%);
-  height: 100vh;
+  min-height: 100vh;
 }
+
 .condiv
 {
   padding: 100px;
@@ -55,6 +56,24 @@ nav
   flex-direction: column;
   align-items: center;
   text-align: center;
+}
+
+.animations-grid{
+  min-height: 100vh;
+  display: grid;
+  column-gap: 200px;
+  padding-bottom: 100px;
+}
+
+.anim{
+  border-radius: 20px;
+  height: 350px;
+  width: 350px;
+  margin:20px 0;
+  box-shadow: 0 -4px 10px rgba(102, 126, 234,0.2), 0 4px 10px rgba(118, 75, 162,0.2);
+}
+.last-anim{
+  margin-bottom: 100px;
 }
 .profilepic
 {
@@ -200,9 +219,8 @@ h1,h2,h3,h4,p{
   }
   .condiv
   {
-
     padding: 35px;
-    min-height: 100%;
+    min-height: 100vh;
   }
   .skills-height{
     height: 145vh;
