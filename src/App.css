@@ -67,8 +67,6 @@ nav
 }
 
 .anim{
-  height: 280px;
-  width: 340px;
   margin:20px 0;
   box-shadow: 0 -4px 10px rgba(102, 126, 234,0.2), 0 4px 10px rgba(118, 75, 162,0.2);
 }
@@ -213,9 +211,11 @@ h1,h2,h3,h4,p{
     position:fixed;
     display: block;
  }
+ .fa-bars:active{
+   color:#764ba2;
+ }
   .sidebar
   {
-
     padding: 30px;
     background: #667eea;
     background: linear-gradient(#667eea 20%, #764ba2 100%);
@@ -257,7 +257,7 @@ h1,h2,h3,h4,p{
     z-index: 10;
     top: 0%;
     left: 0%;
-    width: 50%;
+    width: 55%;
     border-right:  linear-gradient(#667eea 20%, #764ba2 100%);
     opacity: 0.9;
     padding: 30px;
