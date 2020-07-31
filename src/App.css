@@ -295,9 +295,12 @@ textarea{
   .skill-wrapper {
     flex-direction: column;
   }
+  .mf-form{
+    min-height: 100vh;
+  }
+
   .mf-form > form {
     width: 250px;
-    min-height: 100vh;
   }
   .vl {
     border-left: none;
