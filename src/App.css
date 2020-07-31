@@ -296,11 +296,12 @@ textarea{
     flex-direction: column;
   }
   .mf-form{
-    min-height: 100vh;
+    min-height: 105vh;
   }
 
   .mf-form > form {
     width: 250px;
+    height: 550px;
   }
   .vl {
     border-left: none;
