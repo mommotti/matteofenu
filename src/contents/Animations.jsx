@@ -58,6 +58,7 @@ export default function App() {
 
     return (
         <div className="condiv animations-grid">
+            <h1 className="subtopic">Animations</h1>
             <div className="anim first-anim">
                 <Lottie options={defaultOptions1} />
             </div>
