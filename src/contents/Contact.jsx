@@ -28,9 +28,9 @@ class Contact extends Component {
                             </p>
                         </div>
                         <hr className="form-hr" />
-                        <p className="align-radio">
-                            <label>Message: <textarea name="message"></textarea></label>
-                        </p>
+                        <p className="input-p"> <label>Message:</label></p>
+                        <textarea name="message"></textarea>
+
                         <p>
                         </p>
 
