@@ -205,7 +205,7 @@ h1,h2,h3,h4,p{
     min-height: 100%;
   }
   .skills-height{
-    height: 120vh;
+    height: 130vh;
   }
   .skill-wrapper {
     flex-direction: column;
