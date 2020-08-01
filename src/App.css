@@ -318,6 +318,79 @@ textarea{
 }
 
 
+/* GALLERY LIGHTBOX */
+
+.gallery {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (minmax(350px, 1fr))[auto-fit];
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  grid-gap: 1em;
+  margin-bottom:100px;
+}
+
+.gallery img {
+  border-radius: 20px;
+  -o-object-fit: cover;
+  object-fit: cover;
+  width: 100%;
+  height: 300px;
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+}
+
+.gallery img:hover {
+  -webkit-filter: grayscale(0);
+  filter: grayscale(0);
+  -webkit-transform: scale(1.02);
+  transform: scale(1.02);
+}
+
+.card {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  position: relative;
+  width: 100%;
+  cursor: pointer;
+}
+
+.card a:hover {
+  -webkit-transform: scale(1.02);
+  transform: scale(1.02);
+}
+
+.card:hover>.info {
+  -webkit-animation: disappear 0.2s forwards;
+  animation: disappear 0.2s forwards;
+}
+
+.card .info {
+  border-radius: 20px;
+  pointer-events: none;
+  color: white;
+  position: absolute;
+  z-index: 1;
+  text-align: center;
+  width: 50%;
+  background: rgba(0, 0, 0, 0.5);
+  visibility: visible;
+}
+
+.card .info h1 {
+  font-size: 1.2em;
+  font-weight: 300;
+}
+
+/* END OF GALLERY*/
 
 /*  MEDIA  */
 
@@ -426,75 +499,3 @@ textarea{
 }
 
 
-
-/* GALLERY LIGHTBOX */
-
-.gallery {
-  display: -ms-grid;
-  display: grid;
-  -ms-grid-columns: (minmax(350px, 1fr))[auto-fit];
-  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
-  grid-gap: 1em;
-  margin-bottom:100px;
-}
-
-.gallery img {
-  border-radius: 20px;
-  -o-object-fit: cover;
-  object-fit: cover;
-  width: 100%;
-  height: 300px;
-  -webkit-filter: grayscale(100%);
-  filter: grayscale(100%);
-  -webkit-transition: 0.2s;
-  transition: 0.2s;
-}
-
-.gallery img:hover {
-  -webkit-filter: grayscale(0);
-  filter: grayscale(0);
-  -webkit-transform: scale(1.02);
-  transform: scale(1.02);
-}
-
-.card {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  position: relative;
-  width: 100%;
-  cursor: pointer;
-}
-
-.card a:hover {
-  -webkit-transform: scale(1.02);
-  transform: scale(1.02);
-}
-
-.card:hover>.info {
-  -webkit-animation: disappear 0.2s forwards;
-  animation: disappear 0.2s forwards;
-}
-
-.card .info {
-  border-radius: 20px;
-  pointer-events: none;
-  color: white;
-  position: absolute;
-  z-index: 1;
-  text-align: center;
-  width: 50%;
-  background: rgba(0, 0, 0, 0.5);
-  visibility: visible;
-}
-
-.card .info h1 {
-  font-size: 1.2em;
-  font-weight: 300;
-}
