@@ -325,7 +325,8 @@ textarea{
   display: grid;
   -ms-grid-columns: (minmax(350px, 1fr))[auto-fit];
   grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
-  grid-gap: 1em;
+  column-gap: 1em;
+  row-gap: 1em;
   margin-bottom:100px;
 }
 
@@ -437,9 +438,9 @@ textarea{
     width: 250px;
   }
   .gallery{
-    -ms-grid-columns: (minmax(300px, 1fr))[auto-fit];
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    column-gap: 1em;
+    -ms-grid-columns: (minmax(290px, 1fr))[auto-fit];
+    grid-template-columns: repeat(auto-fit, minmax(290px, 1fr));
+    column-gap: 0;
   }
 
   .vl {
