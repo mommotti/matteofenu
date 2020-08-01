@@ -21,7 +21,7 @@ class Projects extends Component {
                                 <h3 class="h3-space">Goal of the project:</h3>
                                 <div class="project-goal">
                                     <p>
-                                        The goal of this project was to get a better understanding of how the back-end and the
+                                        The goal of this project is to get a better understanding of how the back-end and the
                             front-end are connected and work together. <br></br> I built a basic To-Do app by using MongoDB
                                         as the
                                         database,
