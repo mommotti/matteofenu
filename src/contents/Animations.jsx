@@ -57,22 +57,24 @@ export default function App() {
     };
 
     return (
-        <div className="condiv animations-grid">
+        <div className="condiv">
             <h1 className="subtopic">Animations</h1>
-            <div className="anim first-anim">
-                <Lottie options={defaultOptions1} />
-            </div>
-            <div className="anim">
-                <Lottie options={defaultOptions2} />
-            </div >
-            <div className="anim">
-                <Lottie options={defaultOptions3} />
-            </div>
-            <div className="anim">
-                <Lottie options={defaultOptions4} />
-            </div>
-            <div className="anim last-anim">
-                <Lottie options={defaultOptions5} />
+            <div className="animations-grid">
+                <div className="anim first-anim">
+                    <Lottie options={defaultOptions1} />
+                </div>
+                <div className="anim">
+                    <Lottie options={defaultOptions2} />
+                </div >
+                <div className="anim">
+                    <Lottie options={defaultOptions3} />
+                </div>
+                <div className="anim">
+                    <Lottie options={defaultOptions4} />
+                </div>
+                <div className="anim last-anim">
+                    <Lottie options={defaultOptions5} />
+                </div>
             </div>
             {/* <div className="anim">
                 <Lottie options={defaultOptions6} />

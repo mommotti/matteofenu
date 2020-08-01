@@ -9,6 +9,7 @@ import About from './contents/About'
 import Skills from './contents/Skills';
 import Projects from './contents/Projects';
 import Contact from './contents/Contact';
+import Graphics from './contents/Graphics';
 import Animations from './contents/Animations';
 import Navbar from './components/Navbar';
 class App extends Component {
@@ -46,6 +47,9 @@ class App extends Component {
             <Contact />
           </Route>
           {/* Route for Contacts.js contents */}
+          <Route path="/graphics">
+            <Graphics />
+          </Route>
           <Route path="/animations">
             <Animations />
           </Route>
