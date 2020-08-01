@@ -1,11 +1,11 @@
 import React, { Component } from 'react';
-import LightboxExample from '../components/Lightbox'
+import Lightbox from '../components/Lightbox'
 class Graphics extends Component {
     render() {
         return (
-            <div>
+            <div className="condiv skills-height">
                 <h1 className="subtopic">My Graphics</h1>
-                <LightboxExample />
+                <Lightbox />
             </div>)
     }
 }
