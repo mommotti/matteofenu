@@ -50,7 +50,7 @@ export default class LightboxExample extends Component {
         const { photoIndex, isOpen } = this.state;
 
         return (
-            <div>
+            <div className="condiv skills-height">
                 <div className="row">
                     <div class="gallery">
                         <div class="card" onClick={() => this.setState({ isOpen: true })}> <img

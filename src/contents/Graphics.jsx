@@ -3,7 +3,7 @@ import LightboxExample from '../components/Lightbox'
 class Graphics extends Component {
     render() {
         return (
-            <div className="condiv skills-height">
+            <div>
                 <h1 className="subtopic">My Graphics</h1>
                 <LightboxExample />
             </div>)
