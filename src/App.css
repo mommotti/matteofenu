@@ -228,8 +228,9 @@ textarea{
   margin-top: 10px;
   font-family: 'Nunito', sans-serif;
   font-size: 1em;
-  width: 200px;
+  width: 220px;
   height: 150px;
+  resize: none;
 }
 .form-hr{
   display: block;
