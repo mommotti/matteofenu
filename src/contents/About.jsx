@@ -7,7 +7,7 @@ class About extends Component {
                 <div className="about">
                     <h4>Hello,</h4>
                     <h2>I'm Matteo Fenu</h2>
-                    <h3>Junior Web <u className="dev">Developer</u> | UI/UX <u className="des">Designer</u>
+                    <h3>Web <u className="dev">Developer</u> | UI/UX <u className="des">Designer</u>
                     </h3>
                     <br></br>
                     <p className="about_me">
