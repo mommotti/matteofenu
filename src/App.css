@@ -432,7 +432,7 @@ textarea{
   border-radius: 20px;
   -o-object-fit: cover;
   object-fit: cover;
-  width: 100%;
+  width: 90%;
   height: 300px;
   -webkit-filter: grayscale(100%);
   filter: grayscale(100%);
