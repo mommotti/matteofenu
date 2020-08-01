@@ -363,6 +363,10 @@ textarea{
   .mf-form > form {
     width: 250px;
   }
+  .gallery{
+    -ms-grid-columns: (minmax(300px, 1fr))[auto-fit];
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  }
   .vl {
     border-left: none;
     border-bottom: 2px solid#cebfdd;
