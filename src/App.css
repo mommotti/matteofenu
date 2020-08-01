@@ -417,13 +417,13 @@ textarea{
         .project-card {
           overflow-x: hidden;
   height: 350px;
-  width: 300px;
+  width: 500px;
   border: 2px solid #6c67eb;
   border-radius: 10px;
 }
 
 .project-preview {
-  width: 300px;
+  width: 500px;
   height: 100%;
   background: url(./img/images/vuetodo.png);
   background-position: 50% 50%;
@@ -457,7 +457,7 @@ textarea{
   position: absolute;
   border-top: 2px solid #6c67eb;
   border-radius: 0 0 10px 10px;
-  width:300px;
+  width:500px;
   min-height: 100%;
   top: 250px;
 }
@@ -468,7 +468,7 @@ textarea{
   font-size: 1.1em;
   font-weight: 400;
   padding: 1.6em 0;
-  min-width: 300px;
+  min-width:250px;
 }
 
 .technologies {
@@ -542,6 +542,19 @@ textarea{
  .copy{
   width: 100%;
   left: 0%;
+}
+
+.project-card{
+  width: 290px;
+}
+.project-preview {
+  width: 290px;
+}
+.project-description {
+  width: 290px;
+}
+.separator{
+  width: 80px;
 }
 
   .sidebar
