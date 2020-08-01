@@ -48,6 +48,7 @@ nav
   padding: 100px;
   background-color: #faf7f7;
   background: url("./img/form-top.svg") top left no-repeat, url("./img/form-bot.svg") bottom right no-repeat;
+  background-size: 62%;
   flex:var(--condiv-flex);
   position: relative;
   min-height: 100vh;
@@ -565,6 +566,7 @@ textarea{
   }
   .condiv
   {
+    background-size: 100%;
     padding: 35px;
     min-height: 100vh;
   }
