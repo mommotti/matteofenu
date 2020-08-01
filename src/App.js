@@ -69,10 +69,10 @@ class App extends Component {
             </Helmet>
             <Graphics />
           </Route>
-          <Helmet>
-            <title>Animations | Matteo Fenu</title>
-          </Helmet>
           <Route path="/animations">
+            <Helmet>
+              <title>Animations | Matteo Fenu</title>
+            </Helmet>
             <Animations />
           </Route>
           <Social />
