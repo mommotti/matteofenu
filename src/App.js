@@ -4,6 +4,7 @@ import './App.css';
 import {
   BrowserRouter as Router, Route,
 } from "react-router-dom";
+import { Helmet } from 'react-helmet'
 import Home from './contents/Home'
 import About from './contents/About'
 import Skills from './contents/Skills';
@@ -28,28 +29,49 @@ class App extends Component {
           <Navbar />
           {/* Route for Home.js contents */}
           <Route exact path="/">
+            <Helmet>
+              <title>Home | Matteo Fenu</title>
+            </Helmet>
             <Home />
           </Route>
           {/* Route for About.js contents */}
           <Route path="/about">
+            <Helmet>
+              <title>About | Matteo Fenu</title>
+            </Helmet>
             <About />
           </Route>
           {/* Route for Skills.js contents */}
           <Route path="/skills">
+            <Helmet>
+              <title>Skills | Matteo Fenu</title>
+            </Helmet>
             <Skills />
           </Route>
           {/* Route for Projects.js contents */}
           <Route path="/projects">
+            <Helmet>
+              <title>Projects | Matteo Fenu</title>
+            </Helmet>
             <Projects />
           </Route>
           {/* Route for Contacts.js contents */}
           <Route path="/contact">
+            <Helmet>
+              <title>Contact | Matteo Fenu</title>
+            </Helmet>
             <Contact />
           </Route>
           {/* Route for Contacts.js contents */}
           <Route path="/graphics">
+            <Helmet>
+              <title>Graphics | Matteo Fenu</title>
+            </Helmet>
             <Graphics />
           </Route>
+          <Helmet>
+            <title>Animations | Matteo Fenu</title>
+          </Helmet>
           <Route path="/animations">
             <Animations />
           </Route>
