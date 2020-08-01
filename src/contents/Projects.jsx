@@ -4,6 +4,7 @@ class Projects extends Component {
         return (
             <div className="condiv">
                 <h1 className="subtopic">My Projects</h1>
+                <p style={{ color: 'red' }}>| Coming soon... |</p>
             </div>)
     }
 }
