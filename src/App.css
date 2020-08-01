@@ -33,6 +33,10 @@ body{
 nav
 {
   padding:30px 30px 0px 30px ;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-direction: column;
   flex:var(--sidebar-flex);
   background: #667eea;
   background:  linear-gradient(#667eea 20%, #764ba2 100%);
@@ -85,6 +89,7 @@ nav
 }
 
 nav ul{
+  position: fixed;
   font-size:var(--fontsize-nav) ;
   text-align: center;
   list-style-type: none;
@@ -333,6 +338,7 @@ textarea{
   width: 100%;
   left: 0%;
 }
+
   .sidebar
   {
     padding: 30px;
@@ -345,7 +351,7 @@ textarea{
     min-height: 100vh;
   }
   .skills-height{
-    height: 145vh;
+    min-height: 145vh;
   }
   .skill-wrapper {
     flex-direction: column;
@@ -378,12 +384,12 @@ textarea{
     column-gap: 0px;
   }
   nav{
-    display: block;
     position:fixed;
     z-index: 10;
     top: 0%;
     left: 0%;
     width: 55%;
+    height: 100vh;
     border-right:  linear-gradient(#667eea 20%, #764ba2 100%);
     opacity: 0.9;
     padding: 30px;
