@@ -56,12 +56,19 @@ nav
 .home
 {
   display: flex;
-  justify-content: center;
+  justify-content: flex-start;
   flex-direction: column;
   align-items: center;
   text-align: center;
 }
-
+.profilepic
+{
+  box-shadow: 0 -6px 5px rgba(102, 126, 234,0.3), 0 6px 5px rgba(118, 75, 162,0.3);
+  border-radius: 50%;
+  width: 200px;
+  margin: 30px;
+  margin-top: 200px;
+}
 .animations-grid{
   padding-top: 50px;
   min-height: 100vh;
@@ -80,13 +87,7 @@ nav
 .last-anim{
   margin-bottom: 120px;
 }
-.profilepic
-{
-  box-shadow: 0 -6px 5px rgba(102, 126, 234,0.3), 0 6px 5px rgba(118, 75, 162,0.3);
-  border-radius: 50%;
-  width: 200px;
-  margin: 30px;
-}
+
 
 nav ul{
   position: fixed;
