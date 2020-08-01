@@ -264,8 +264,8 @@ textarea{
   margin-right: auto;
   width: 300px;
   left: 52%;
-  position: absolute !important;;
-  bottom: 0;
+  position: absolute !important;
+  bottom: 0 !important;
   margin-bottom: 0 !important;
   color:#cebfdd;
 }
