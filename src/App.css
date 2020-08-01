@@ -166,6 +166,14 @@ h1,h2,h3,h4,p{
   align-items: center;
 }
 
+.about{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+}
+
 .about_me{
   text-align: center;
   padding: 10px 5px;
@@ -258,7 +266,6 @@ textarea{
   bottom: 0;
   margin-bottom: 0 !important;
   color:#cebfdd;
-
 }
 
 .social-distancing {
