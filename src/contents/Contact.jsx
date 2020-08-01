@@ -5,7 +5,7 @@ class Contact extends Component {
             <div className="condiv">
                 <h1 className="subtopic">Contact Me</h1>
                 <div className="mf-form">
-                    <form name="contact" method="POST" data-netlify="true" autocomplete="off">
+                    <form name="contact" method="POST" data-netlify="true" data-netlify-recaptcha="true" autocomplete="off">
                         <input type="hidden" name="form-name" value="contact" />
                         <p className="input-p"><label>Your Name:</label></p>
                         <p>
@@ -33,7 +33,7 @@ class Contact extends Component {
 
                         <p>
                         </p>
-
+                        <div data-netlify-recaptcha="true"></div>
                         <p>
                             <button className="btn" type="submit">Send</button>
                         </p>
