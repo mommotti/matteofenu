@@ -13,9 +13,15 @@ class About extends Component {
                     <p className="about_me">
                         I have a great passion for UX and UI.
                         I've been using Photoshop for a while and I'm now studying web development via Udemy and Youtube!
+                        <br />
+                        <br></br>
                         The tools I use to design:
+                        <br></br>
                         Photoshop, Illustrator, After Effects and Adobe Xd.
+                        <br></br>
+
                         The technologies I use:
+                        <br></br>
                         HTML5, CSS3, JavaScript, VueJS, ReactJS, NodeJS and more!
             </p>
                 </div>
