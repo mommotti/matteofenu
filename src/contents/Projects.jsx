@@ -38,7 +38,7 @@ class Projects extends Component {
                     </div>
 
 
-                    <div class="project-card">
+                    {/* <div class="project-card">
                         <div class="project-preview">
                             <div class="project-description">
 
@@ -68,7 +68,7 @@ class Projects extends Component {
                             Here</button></a>
                             </div>
                         </div>
-                    </div>
+                    </div> */}
                 </div>
                 <p style={{ color: 'red' }}>| More projects to come... |</p>
             </div>)
