@@ -67,7 +67,6 @@ class Projects extends Component {
                         </div>
                     </div>
                 </div>
-                <h5 style={{ color: 'red' }}>🛈 More projects coming soon... 🛈</h5>
             </div>)
     }
 }
