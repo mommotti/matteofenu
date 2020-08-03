@@ -298,9 +298,10 @@ h1,h2,h3,h4,p{
     transform: translateX(-500px);
     transition: 0.35s ease-in-out;
   }
-  nav ul li
+nav ul li
 {
-  font-size: 1.1em;
+  font-size: 1.2em;
+  margin: 15px 40px;
 }
   .appear{
     transform: translateX(0);
