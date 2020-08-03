@@ -60,7 +60,7 @@ class Projects extends Component {
                         </p>
                                 </div>
                                 <div class="separator"></div>
-                                <h4 class="h3-space">Check it out:</h4>
+                                <h4 class="h3-space">Check it out: </h4>
                                 <a href="https://react-expense-mf.herokuapp.com/" target="_blank"><button class="project-button pb2">Click
                             Here</button></a>
                             </div>
