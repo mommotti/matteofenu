@@ -21,7 +21,7 @@ class Navbar extends Component {
         return (
             <>
                 <i onClick={() => this.setState({ active: !this.state.active })} class="fa fa-bars  fa-2x" aria-hidden="true"></i>
-                <nav className={this.state.active ? 'appear' : null}>
+                <nav className={this.state.active ? 'appear' : null} >
                     <Particles className="particles"
 
                         params={{
