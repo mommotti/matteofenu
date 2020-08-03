@@ -23,6 +23,17 @@
 body{
   font-family: 'Nunito', sans-serif;
 }
+.particles {
+  position: fixed;
+  right: 0;
+  right: 0;
+  bottom: 0;
+  height:100%;
+  width: 100%;
+  left: 0;
+  z-index:0;
+}
+
 .App
 {
   position: relative;
@@ -38,6 +49,7 @@ body{
   flex:var(--condiv-flex);
   position: relative;
   min-height: 100vh;
+  
 }
 .fa-bars {
   cursor: pointer;
@@ -48,7 +60,9 @@ body{
   color:  #667eea;
   display: none;
 }
-
+.cls-1{
+  fill:red;
+}
 nav
 {
   padding:30px 30px 0px 30px ;

@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import Navitem from './Navitem';
+import Particles from "react-particles-js";
 
 class Navbar extends Component {
     constructor(props) {
@@ -21,6 +22,19 @@ class Navbar extends Component {
             <>
                 <i onClick={() => this.setState({ active: !this.state.active })} class="fa fa-bars  fa-2x" aria-hidden="true"></i>
                 <nav className={this.state.active ? 'appear' : null}>
+                    <Particles className="particles"
+
+                        params={{
+                            particles: {
+                                number: {
+                                    value: 20,
+                                    density: {
+                                        enable: true,
+                                        value_area: 800
+                                    }
+                                }
+                            }
+                        }} />
                     <ul onClick={() => this.setState({ active: !this.state.active })}>
                         <Navitem item="Home" tolink="/" activec={this.activeitem}></Navitem>
                         <hr />
