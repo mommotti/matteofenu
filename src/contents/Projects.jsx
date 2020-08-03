@@ -9,7 +9,7 @@ class Projects extends Component {
                     <div class="project-card pc1">
                         <div class="project-preview pp1">
                             <div class="project-description pd1">
-                                <h1>Vue Todo</h1>
+                                <h2>Vue Todo</h2>
                                 <div class="separator s1"></div>
                                 <h3 class="h3-space">Technologies used:</h3>
                                 <div class="technologies">
@@ -30,7 +30,7 @@ class Projects extends Component {
                         </p>
                                 </div>
                                 <div class="separator"></div>
-                                <h3 class="h3-space">Check it out:</h3>
+                                <h4 class="h3-space">Check it out:</h4>
                                 <a href="https://todo-vue-mf.herokuapp.com/" target="_blank"><button class="project-button pb1">Click
                             Here</button></a>
                             </div>
@@ -41,7 +41,7 @@ class Projects extends Component {
                     <div class="project-card pc2">
                         <div class="project-preview pp2">
                             <div class="project-description pd2">
-                                <h1>React Expense Tracker</h1>
+                                <h2>React Expense Tracker</h2>
                                 <div class="separator s2"></div>
                                 <h3 class="h3-space">Technologies used:</h3>
                                 <div class="technologies">
@@ -60,8 +60,8 @@ class Projects extends Component {
                         </p>
                                 </div>
                                 <div class="separator"></div>
-                                <h3 class="h3-space">Check it out:</h3>
-                                <a href="https://react-expense-mf.netlify.app/" target="_blank"><button class="project-button pb2">Click
+                                <h4 class="h3-space">Check it out:</h4>
+                                <a href="https://react-expense-mf.herokuapp.com/" target="_blank"><button class="project-button pb2">Click
                             Here</button></a>
                             </div>
                         </div>
