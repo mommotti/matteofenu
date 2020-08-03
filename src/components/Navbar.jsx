@@ -27,7 +27,7 @@ class Navbar extends Component {
                         params={{
                             "particles": {
                                 "number": {
-                                    "value": 150,
+                                    "value": 40,
                                     "density": {
                                         "enable": false
                                     }
