@@ -74,6 +74,7 @@ nav
   background: #667eea;
   background:  linear-gradient(#667eea 20%, #764ba2 100%);
   min-height: 100vh;
+  z-index:1;
 }
 
 nav ul{
@@ -88,6 +89,8 @@ nav ul li
 {
   font-size: 1em;
   margin: 20px 40px;
+  z-index: 0;
+  pointer-events: auto;
 }
 nav ul hr {
   border: none;

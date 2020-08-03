@@ -25,12 +25,52 @@ class Navbar extends Component {
                     <Particles className="particles"
 
                         params={{
-                            particles: {
-                                number: {
-                                    value: 20,
-                                    density: {
-                                        enable: true,
-                                        value_area: 800
+                            "particles": {
+                                "number": {
+                                    "value": 150,
+                                    "density": {
+                                        "enable": false
+                                    }
+                                },
+                                "size": {
+                                    "value": 2.5,
+                                    "random": true,
+                                    "anim": {
+                                        "speed": 4,
+                                        "size_min": 0.1
+                                    }
+                                },
+                                "line_linked": {
+                                    "enable": false
+                                },
+                                "move": {
+                                    "random": true,
+                                    "speed": 0.5,
+                                    "direction": "top",
+                                    "out_mode": "out"
+                                }
+                            },
+                            "interactivity": {
+                                "events": {
+                                    "onhover": {
+                                        "enable": true,
+                                        "mode": "bubble"
+                                    },
+                                    "onclick": {
+                                        "enable": true,
+                                        "mode": "repulse"
+                                    }
+                                },
+                                "modes": {
+                                    "bubble": {
+                                        "distance": 100,
+                                        "duration": 1,
+                                        "size": 0,
+                                        "opacity": 0
+                                    },
+                                    "repulse": {
+                                        "distance": 200,
+                                        "duration": 4
                                     }
                                 }
                             }
