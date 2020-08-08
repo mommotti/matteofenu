@@ -91,7 +91,7 @@ class Projects extends Component {
                                         <br></br>
                                         <br></br>
                                         In order to add a new pin, a key to access the API must be added inside of the request form.<br></br>
-                                        <u>Copy the API KEY before checking out the app.</u>
+                                        <u>Remember this easy API KEY before checking out the app.</u>
                                         <br></br>
                                         <br></br>
                                         <b>API KEY:</b><br></br>
