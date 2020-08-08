@@ -58,7 +58,6 @@
     min-height: 100%;
     top: 250px;
   }
-  
   .description {
     width: 60%;
     text-align: center;
@@ -244,7 +243,9 @@
   .separator{
     width: 80px;
   }
-
+  .project-description p{
+    margin: 0;
+  }
   }
 
 
