@@ -84,8 +84,8 @@ class Projects extends Component {
                                 <div class="project-goal">
                                     <small>(  ⚠The mobile version is still under construction⚠  )</small>
                                     <p>
-                                        The goal of this project is to familiarize with the MERN workflow. <br></br>
-                                        I firstly created a schema by leveraging Mongoose with all the information about the data each pin(📍) would contain.<br></br>
+                                        The goal of this project is to familiarize with the MERN stack. <br></br>
+                                        I first created a schema by leveraging Mongoose with all the information about the data each pin(📍) would contain.<br></br>
                                         I then created an API which satisfied the fetching, creation and deletion of pins <br></br>
                                         And to finish, I embedded a Mapbox GL compononent where the pins stored inside of MongoDB Atlas would appear.
                                         <br></br>
