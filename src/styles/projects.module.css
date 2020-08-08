@@ -104,6 +104,8 @@
     padding: 0 20px;
   }
 
+
+  
   /* PROJECT 1 */
   .pc1{
     border: 2px solid #6c67eb;
@@ -116,8 +118,8 @@
     background-size: cover;
   }
   .pd1{
-    background-image: -webkit-gradient(linear, left bottom, left top, from(rgba(255, 255, 255, 0.88)), to(rgba(242, 238, 255, 0.88)));
-    background-image: linear-gradient(to top, rgba(255, 255, 255, 0.88), rgba(242, 238, 255, 0.88));
+    background-image: -webkit-gradient(linear, left bottom, left top, from(rgba(255, 255, 255, 0.88)), to(rgba(242, 238, 255, 1)));
+    background-image: linear-gradient(to top, rgba(255, 255, 255, 0.88), rgba(242, 238, 255, 1));
     border-top: 2px solid #6c67eb;
   }
 
@@ -134,10 +136,27 @@
     border: 2px solid #8d8aeb;
   }
 
+
+
   /* PROJECT 2 */
   .pc2{
     border: 2px solid  #0465ea;
   }
+  .pc2::-webkit-scrollbar-track {
+    border-left: 1px solid #8ab4eb;
+  }
+  
+  /* Handle */
+  .pc2::-webkit-scrollbar-thumb {
+    background: #669bea;
+    border-radius: 5px;
+  }
+  
+  /* Handle on hover */
+  .pc2::-webkit-scrollbar-thumb:hover {
+    background: #6694ea;
+  }
+  
   .pp2{
     background: url(../img/images/expense_tracker.jpg);
     background-position: 50% 50%;
@@ -145,8 +164,8 @@
     background-size: cover;
   }
   .pd2{
-    background-image: -webkit-gradient(linear, left bottom, left top, from(rgba(255, 255, 255, 0.88)), to(rgba(238, 238, 255, 0.88)));
-    background-image: linear-gradient(to top, rgba(255, 255, 255, 0.88), rgba(238, 238, 255, 0.88));
+    background-image: -webkit-gradient(linear, left bottom, left top, from(rgba(255, 255, 255, 0.88)), to(rgba(238, 238, 255, 1)));
+    background-image: linear-gradient(to top, rgba(255, 255, 255, 0.88), rgba(238, 238, 255, 1));
     border-top: 2px solid  #0465ea;
   }
 
@@ -161,6 +180,52 @@
   .pb2:hover{
     color: #2c7ae7;
     border: 2px solid #2c7ae7;
+  }
+
+
+
+  /* PROJECT 3 */
+  .pc3{
+    border: 2px solid  #03ca88;
+  }
+  .pc3::-webkit-scrollbar-track {
+    border-left: 1px solid #73db8a;
+  }
+  
+  /* Handle */
+  .pc3::-webkit-scrollbar-thumb {
+    background: #66ea83;
+    border-radius: 5px;
+  }
+  
+  /* Handle on hover */
+  .pc3::-webkit-scrollbar-thumb:hover {
+    background: #66ea83;
+  }
+  
+  .pp3{
+    background: url(../img/images/memo_map.png);
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .pd3{
+    background-image: -webkit-gradient(linear, left bottom, left top, from(rgba(255, 255, 255, 0.88)), to( rgb(233, 255, 238)));
+    background-image: linear-gradient(to top, rgba(255, 255, 255, 0.88), rgb(233, 255, 238));
+    border-top: 2px solid  #03ca88;
+  }
+
+  .s3{
+    border-top: 1px solid #35ac5c;
+  }
+
+  .pb3{
+    background-color: #3eca6d;
+  }
+
+  .pb3:hover{
+    color: #3eca6d;
+    border: 2px solid #3eca6d;
   }
 
 

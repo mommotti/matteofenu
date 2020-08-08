@@ -66,6 +66,45 @@ class Projects extends Component {
                             </div>
                         </div>
                     </div>
+
+                    {/* PROJECT 3 */}
+                    <div class="project-card pc3">
+                        <div class="project-preview pp3">
+                            <div class="project-description pd3">
+                                <h2>Memo Map</h2>
+                                <div class="separator s3"></div>
+                                <h3 class="h3-space">Technologies used:</h3>
+                                <div class="technologies">
+                                    <p>ReactJS</p>
+                                    <p>ExpressJS</p>
+                                    <p>MongoDB</p>
+                                </div>
+                                <div class="separator s3"></div>
+                                <h3 class="h3-space">Goal of the project:</h3>
+                                <div class="project-goal">
+                                    <small>(  ⚠The mobile version is still under construction⚠  )</small>
+                                    <p>
+                                        The goal of this project is to familiarize with the MERN workflow. <br></br>
+                                        I firstly created a schema by leveraging Mongoose with all the information about the data each pin(📍) would contain.<br></br>
+                                        I then created an API which satisfied the fetching, creation and deletion of pins <br></br>
+                                        And to finish, I embedded a Mapbox GL compononent where the pins stored inside of MongoDB Atlas would appear.
+                                        <br></br>
+                                        <br></br>
+                                        In order to add a new pin, a key to access the API must be added inside of the request form.<br></br>
+                                        <u>Copy the API KEY before checking out the app.</u>
+                                        <br></br>
+                                        <br></br>
+                                        <b>API KEY:</b><br></br>
+                                        <b>memomap</b>
+                                    </p>
+                                </div>
+                                <div class="separator"></div>
+                                <h4 class="h3-space">Check it out: </h4>
+                                <a href="https://memo-map-mf.herokuapp.com/" rel="noopener noreferrer" target="_blank"><button class="project-button pb3">Click
+                            Here</button></a>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>)
     }
