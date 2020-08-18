@@ -5,7 +5,7 @@ import Animation2 from '../img/Lotties/dataSun.json';
 import Animation3 from '../img/Lotties/dataEye.json';
 import Animation4 from '../img/Lotties/dataAllSet.json';
 import Animation5 from '../img/Lotties/dataPoly.json';
-import Animation6 from '../img/Lotties/dataFern.json';
+// import Animation6 from '../img/Lotties/dataFern.json';
 export default function App() {
     const defaultOptions1 = {
         loop: true,
@@ -47,14 +47,14 @@ export default function App() {
             preserveAspectRatio: "xMidYMid slice"
         }
     };
-    const defaultOptions6 = {
-        loop: true,
-        autoplay: true,
-        animationData: Animation6,
-        rendererSettings: {
-            preserveAspectRatio: "xMidYMid slice"
-        }
-    };
+    // const defaultOptions6 = {
+    //     loop: true,
+    //     autoplay: true,
+    //     animationData: Animation6,
+    //     rendererSettings: {
+    //         preserveAspectRatio: "xMidYMid slice"
+    //     }
+    // };
 
     return (
         <div className="condiv">

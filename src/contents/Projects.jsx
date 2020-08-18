@@ -22,17 +22,17 @@ class Projects extends Component {
                                 <div class="project-goal">
                                     <p>
                                         The goal of this project is to get a better understanding of how the back-end and the
-                            front-end are connected and work together. <br></br> I built a basic To-Do app by using MongoDB
-                                        as the
-                                        database,
-                            ExpressJS as the server, and VueJS as the front-end framework. <br></br>
-                                                I implemented basic CRUD functionality.
-                        </p>
+                    front-end are connected and work together. <br></br> I built a basic To-Do app by using MongoDB
+                                as the
+                                database,
+                    ExpressJS as the server, and VueJS as the front-end framework. <br></br>
+                                        I implemented basic CRUD functionality.
+                </p>
                                 </div>
                                 <div class="separator"></div>
                                 <h4 class="h3-space">Check it out:</h4>
                                 <a href="https://todo-vue-mf.herokuapp.com/" rel="noopener noreferrer" target="_blank"><button class="project-button pb1">Click
-                            Here</button></a>
+                    Here</button></a>
                             </div>
                         </div>
                     </div>
@@ -54,15 +54,15 @@ class Projects extends Component {
                                 <div class="project-goal">
                                     <p>
                                         The main goal of this project is to familiarize with React's workflow leveraging useState, useReducer and useContext hooks. <br></br> I built a basic expense tracker app by using MongoDB
-                                        as the
-                                        database,
-                            ExpressJS as the server, and ReactJS as the front-end framework.
-                        </p>
+                                as the
+                                database,
+                    ExpressJS as the server, and ReactJS as the front-end framework.
+                </p>
                                 </div>
                                 <div class="separator"></div>
                                 <h4 class="h3-space">Check it out: </h4>
                                 <a href="https://expense-tracker-mf.herokuapp.com/" rel="noopener noreferrer" target="_blank"><button class="project-button pb2">Click
-                            Here</button></a>
+                    Here</button></a>
                             </div>
                         </div>
                     </div>
@@ -85,12 +85,12 @@ class Projects extends Component {
                                     <small>(  ⚠The mobile version is still under construction⚠  )</small>
                                     <p>
                                         The goal of this project is to familiarize with the MERN stack. <br></br>
-                                        I first created a schema by leveraging Mongoose with all the information about the data each pin(📍) would contain.<br></br>
-                                        I then created an API which satisfied the fetching, creation and deletion of pins. <br></br>
-                                        And to finish, I embedded a Mapbox GL compononent where the pins stored inside of MongoDB Atlas would appear.
+                                I first created a schema by leveraging Mongoose with all the information about the data each pin(📍) would contain.<br></br>
+                                I then created an API which satisfied the fetching, creation and deletion of pins. <br></br>
+                                And to finish, I embedded a Mapbox GL compononent where the pins stored inside of MongoDB Atlas would appear.
+                                <br></br>
                                         <br></br>
-                                        <br></br>
-                                        In order to add a new pin, a key to access the API must be added inside of the request form.<br></br>
+                                In order to add a new pin, a key to access the API must be added inside of the request form.<br></br>
                                         <u>Remember this easy API KEY before checking out the app.</u>
                                         <br></br>
                                         <br></br>
@@ -101,7 +101,7 @@ class Projects extends Component {
                                 <div class="separator"></div>
                                 <h4 class="h3-space">Check it out: </h4>
                                 <a href="https://memo-map-mf.herokuapp.com/" rel="noopener noreferrer" target="_blank"><button class="project-button pb3">Click
-                            Here</button></a>
+                    Here</button></a>
                             </div>
                         </div>
                     </div>
