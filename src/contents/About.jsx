@@ -22,7 +22,7 @@ class About extends Component {
 
                         The technologies I use:
                         <br></br>
-                        HTML5, CSS3, JavaScript, VueJS, ReactJS, NodeJS and more!
+                        HTML5, CSS3, JavaScript, NodeJS, VueJS, ReactJS and more!
             </p>
                 </div>
             </div>)
