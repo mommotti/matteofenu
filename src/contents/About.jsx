@@ -11,7 +11,7 @@ class About extends Component {
                     </h3>
                     <br></br>
                     <p className="about_me">
-                        I have a great passion for both UI/UX and programming.
+                        I have a great passion for both UI/UX and coding.
                         I've been using Photoshop for a while and I'm now studying web development via Udemy and Youtube!
                         <br />
                         <br></br>
