@@ -17,7 +17,7 @@ class About extends Component {
                         <br></br>
                         The tools I use to design:
                         <br></br>
-                        Photoshop, Illustrator, After Effects, Xd and Figma.
+                        Photoshop, Illustrator, After Effects, Adobe Xd and Figma.
                         <br></br>
 
                         The technologies I use:
