@@ -9,7 +9,12 @@ class Tiltskill extends Component {
                     <div className="Tilt-inner">
                         <a className="icon" href={this.props.info}>
                             {this.props.icon}
-                        </a>
+                        </a>{
+                            this.props.learn ? 
+                            <div className="learn"></div>
+                            :
+                            ''
+                        }
                     </div>
                 </Tilt>
             </>
