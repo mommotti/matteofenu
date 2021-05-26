@@ -6,7 +6,7 @@ class Skills extends Component {
             <div className="condiv skills-height">
                 <h1 className="subtopic">My Skills</h1>
                 
-                <span className="span-learn">currently learning <div className="span-dot"></div></span>
+                <span className="span-learn">> currently learning <div className="span-dot"></div></span>
                 <div className="skill-wrapper">
                     <div>
                         <h3 className="dev">Development:</h3>

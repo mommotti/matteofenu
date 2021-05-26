@@ -12,8 +12,6 @@
   }
   .span-learn{
     position: relative;
-    margin: 0;
-    padding: 0;
   }
   .span-dot{
     animation: blinker 1.5s linear infinite;
@@ -22,7 +20,7 @@
     height: 8px;
     border-radius: 50%;
     border: 1px solid rgb(0, 167, 8);
-    top:35%;
+    top:36%;
     left: 104%;
     background-color: rgb(0, 255, 13);
   }
