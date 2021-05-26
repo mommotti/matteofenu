@@ -15,7 +15,6 @@ class Social extends Component {
                     <p>&copy; 2021 Matteo Fenu</p>
                 </div>
             </div>
-
         )
     }
 }
