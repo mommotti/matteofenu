@@ -68,7 +68,7 @@ class Skills extends Component {
                                 icon={
                                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" width="48px" height="48px"><path fill="#d50000" d="M0,15h48v17H24v3H13v-3H0V15z" /><path fill="#fff" d="M3 29L8 29 8 21 11 21 11 29 13 29 13 18 3 18zM16 18v14h5v-3h5V18H16zM24 26h-3v-5h3V26zM29 18L29 29 34 29 34 21 37 21 37 29 40 29 40 21 43 21 43 29 45 29 45 18z" /></svg>} />
                             <Tiltskill
-                                learn = {true}
+                                
                                 info="https://www.python.org/"
                                 icon={ <svg width="48" height="48" viewBox="0 0 256 255" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMinYMin meet"><defs><linearGradient x1="12.959%" y1="12.039%" x2="79.639%" y2="78.201%" id="a"><stop stop-color="#387EB8" offset="0%"/><stop stop-color="#366994" offset="100%"/></linearGradient><linearGradient x1="19.128%" y1="20.579%" x2="90.742%" y2="88.429%" id="b"><stop stop-color="#FFE052" offset="0%"/><stop stop-color="#FFC331" offset="100%"/></linearGradient></defs><path d="M126.916.072c-64.832 0-60.784 28.115-60.784 28.115l.072 29.128h61.868v8.745H41.631S.145 61.355.145 126.77c0 65.417 36.21 63.097 36.21 63.097h21.61v-30.356s-1.165-36.21 35.632-36.21h61.362s34.475.557 34.475-33.319V33.97S194.67.072 126.916.072zM92.802 19.66a11.12 11.12 0 0 1 11.13 11.13 11.12 11.12 0 0 1-11.13 11.13 11.12 11.12 0 0 1-11.13-11.13 11.12 11.12 0 0 1 11.13-11.13z" fill="url(#a)"/><path d="M128.757 254.126c64.832 0 60.784-28.115 60.784-28.115l-.072-29.127H127.6v-8.745h86.441s41.486 4.705 41.486-60.712c0-65.416-36.21-63.096-36.21-63.096h-21.61v30.355s1.165 36.21-35.632 36.21h-61.362s-34.475-.557-34.475 33.32v56.013s-5.235 33.897 62.518 33.897zm34.114-19.586a11.12 11.12 0 0 1-11.13-11.13 11.12 11.12 0 0 1 11.13-11.131 11.12 11.12 0 0 1 11.13 11.13 11.12 11.12 0 0 1-11.13 11.13z" fill="url(#b)"/></svg> } 
                                 />
@@ -95,6 +95,31 @@ class Skills extends Component {
                             <Tiltskill
                                 info="https://figma.com"
                                 icon={<svg fill="#000000" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 40 31" width="48px" height="48px"><path d="M 12.5 1 C 9.467 1 7 3.467 7 6.5 C 7 8.1579175 7.7405106 9.6431625 8.9042969 10.652344 C 7.1773693 11.580958 6 13.405492 6 15.5 C 6 17.360625 6.9316558 19.00426 8.3496094 20 C 6.9316558 20.99574 6 22.639375 6 24.5 C 6 27.533 8.467 30 11.5 30 C 14.533 30 17 27.533 17 24.5 L 17 19 L 17 12 L 20.5 12 C 23.533 12 26 9.533 26 6.5 C 26 3.467 23.533 1 20.5 1 L 12.5 1 z M 12.5 3 L 20.5 3 C 22.43 3 24 4.57 24 6.5 C 24 8.43 22.43 10 20.5 10 L 17 10 L 12.5 10 C 10.57 10 9 8.43 9 6.5 C 9 4.57 10.57 3 12.5 3 z M 11.5 12 L 12.5 12 L 15 12 L 15 19 L 11.5 19 C 9.57 19 8 17.43 8 15.5 C 8 13.57 9.57 12 11.5 12 z M 21 12 A 4 4 0 0 0 21 20 A 4 4 0 0 0 21 12 z M 11.5 21 L 15 21 L 15 24.5 C 15 26.43 13.43 28 11.5 28 C 9.57 28 8 26.43 8 24.5 C 8 22.57 9.57 21 11.5 21 z" /></svg>
+                                } />
+                            <Tiltskill
+                                learn = {true}
+                                info="https://www.sketch.com/"
+                                icon={<svg width="48px" height="48px" viewBox="0 0 394 356" version="1.1" xmlns="http://www.w3.org/2000/svg">
+    <title>sketch-symbol</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="sketch-symbol" fill-rule="nonzero">
+            <polygon id="Path" fill="#FDB300" points="85.790323 11.7151549 196.602823 0 307.415323 11.7151549 393.205645 126.881084 196.602823 355.823009 0 126.881084"></polygon>
+            <g id="Group" transform="translate(0.000000, 126.881084)">
+                <polygon id="Path" fill="#EA6C00" points="79.634 0 196.603 228.942 0 0"></polygon>
+                <polygon id="Path" fill="#EA6C00" transform="translate(294.903968, 114.471000) scale(-1, 1) translate(-294.903968, -114.471000) " points="276.236468 0 393.205468 228.942 196.602468 0"></polygon>
+                <polygon id="Path" fill="#FDAD00" points="79.634 0 313.572 0 196.603 228.942"></polygon>
+            </g>
+            <g id="Group">
+                <polygon id="Path" fill="#FDD231" points="196.603 0 85.79 11.715 79.634 126.881"></polygon>
+                <polygon id="Path" fill="#FDD231" transform="translate(255.086896, 63.440500) scale(-1, 1) translate(-255.086896, -63.440500) " points="313.571396 0 202.758396 11.715 196.602396 126.881"></polygon>
+                <polygon id="Path" fill="#FDAD00" transform="translate(350.310468, 69.298000) scale(-1, 1) translate(-350.310468, -69.298000) " points="307.414968 126.881 393.205968 11.715 387.048968 126.881"></polygon>
+                <polygon id="Path" fill="#FDAD00" points="0 126.881 85.79 11.715 79.634 126.881"></polygon>
+                <polygon id="Path" fill="#FEEEB7" points="196.603 0 79.634 126.881 313.572 126.881"></polygon>
+            </g>
+        </g>
+    </g>
+</svg>
                                 } />
                         </div>
                     </div>
