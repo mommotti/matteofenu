@@ -6,6 +6,39 @@
     background:  rgba(250, 247, 247,0.5) ;
     box-shadow: 0 -4px 10px rgba(102, 126, 234,0.2), 0 4px 10px rgba(118, 75, 162,0.2);
   }
+  .design-text{
+    background-color: red;
+    font-weight: 800;
+    border-bottom: 5px solid #667EEA;
+    /* Create the gradient. */
+    background-image: linear-gradient(45deg, #667EEA, #764BA2);
+    /* Set the background size and repeat properties. */
+    background-size: 100%;
+    background-repeat: repeat;
+  
+    /* Use the text as a mask for the background. */
+    /* This will show the gradient as a text color rather than element bg. */
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    -moz-background-clip: text;
+    -moz-text-fill-color: transparent;
+  }
+  .design-text-design{
+    background-color: red;
+    font-weight: 800;
+    /* Create the gradient. */
+    background-image: linear-gradient(45deg, #667EEA, #764BA2);
+    /* Set the background size and repeat properties. */
+    background-size: 100%;
+    background-repeat: repeat;
+  
+    /* Use the text as a mask for the background. */
+    /* This will show the gradient as a text color rather than element bg. */
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    -moz-background-clip: text;
+    -moz-text-fill-color: transparent;
+  }
   .about{
     display: flex;
     flex-direction: column;

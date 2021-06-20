@@ -7,6 +7,7 @@ import {
 import { Helmet } from 'react-helmet'
 import Home from './contents/Home'
 import About from './contents/About'
+import UX from './contents/UX';
 import Skills from './contents/Skills';
 import Projects from './contents/Projects';
 import Contact from './contents/Contact';
@@ -40,6 +41,13 @@ class App extends Component {
               <title>About | Matteo Fenu</title>
             </Helmet>
             <About />
+          </Route>
+          {/* Route for UX.js contents */}
+          <Route path="/ux">
+            <Helmet>
+              <title>UX | Matteo Fenu</title>
+            </Helmet>
+            <UX />
           </Route>
           {/* Route for Skills.js contents */}
           <Route path="/skills">

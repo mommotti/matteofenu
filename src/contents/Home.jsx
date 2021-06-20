@@ -7,7 +7,7 @@ class Home extends Component {
                 <img alt="profilepic" src={profilepic} className="profilepic">
                 </img>
 
-                <p>Hi, I'm Matteo Fenu, Web <u className="dev">Developer</u> | UI/UX <u className="des">Designer</u></p>
+                <p>Hi, I'm Matteo Fenu, UX/UI <u className="des">Designer</u> | Web <u className="dev">Developer</u></p>
             </div>)
     }
 }
