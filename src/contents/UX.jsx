@@ -5,12 +5,12 @@ class About extends Component {
         return (
             <div className="condiv skills-height">
                 <h1 className="subtopic">My conversion to UX</h1>
-                <div className="about">
+                <div className="about ux-w">
                     <h4 style={{backgroundColor: "rgba(255, 255, 139, 0.5)"}}>Due to my love for design, I am now switching my career to be all about User Experience design. </h4>
                     <h4>I am quick at learning and applying new technologies and information, especially when I'm passionate about a topic. For me, UX design wraps up this concept perfectly.</h4>    
                     <br></br>
                     <p>After being part of the biggest Italian UI contest, <a  style={{color: "black", fontWeight: 700, textDecoration: "underline"}} href="https://designflows.it/" target="_blank">Designflows 2020</a> with <a  style={{color: "black", fontWeight: 700, textDecoration: "underline"}} href="https://matteofenu.netlify.app/assets/projectImgs/ai8.jpg" target="_blank">this</a> entry, 
-                    I realized where my passion lies in: <h3 className="design-text-design">DESIGN !</h3>
+                    I realized where my passion lies in: <p className="design-text-design">DESIGN !</p>
                     <br></br>
                     <br></br>
                     <hr />
