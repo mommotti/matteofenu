@@ -39,6 +39,10 @@ class About extends Component {
                     <br></br>My approach to quickly re-create a part of the wireframe is to take an A4 paper and divide it into 8 equal parts. I then set an 8 minute timer, forcing myself to quickly draw each wireframe in just 1 minute each.
                     Once I'm happy with the wireframes, I translate the design into prototypes with apps such as Adobe XD, Figma or Sketch.
                     </p>
+                    <br></br>
+                    <br></br>
+                    <br></br>
+                    <br></br>
                 </div>
             </div>)
     }
