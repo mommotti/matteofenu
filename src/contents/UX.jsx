@@ -44,8 +44,7 @@ class About extends Component {
                     <br></br>
                     <br></br>
 
-                <div className="five_designs">
-                    <svg width="302px" height="617px" viewBox="0 0 210 429" version="1.1" xmlns="http://www.w3.org/2000/svg">
+                    {/* <svg width="302px" height="617px" viewBox="0 0 210 429" version="1.1" xmlns="http://www.w3.org/2000/svg">
     <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
         <g id="-" transform="translate(-116.000000, -42.000000)">
             <g id="Group-10" transform="translate(116.000000, 42.000000)">
@@ -135,8 +134,7 @@ class About extends Component {
             </g>
         </g>
     </g>
-</svg>
-                </div>
+</svg> */}
 <br></br>
                     <br></br>
                     <br></br>
