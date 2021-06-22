@@ -76,7 +76,7 @@ class Navbar extends Component {
                             }
                         }} />
                     <ul onClick={() => this.setState({ active: !this.state.active })}>
-                        <Navitem item="Home" tolink="/" activec={this.activeitem}></Navitem>
+                        <Navitem item="About" tolink="/" activec={this.activeitem}></Navitem>
                         <hr />
                         <Navitem item="UX" tolink="/ux" activec={this.activeitem}></Navitem>
                         <hr />

@@ -217,7 +217,7 @@ h1,h2,h3,h4,p{
 
 /*  MEDIA  */
 
-@media all and (max-width: 700px) {
+@media all and (max-width: 900px) {
   :root {
     --fontsize-nav:1rem;
     --sidebar-flex:0;
@@ -302,7 +302,7 @@ h1,h2,h3,h4,p{
     border-right:  linear-gradient(#667eea 20%, #764ba2 100%);
     opacity: 0.9;
     padding: 30px;
-    transform: translateX(-500px);
+    transform: translateX(-550px);
     transition: 0.35s ease-in-out;
   }
 nav ul li
