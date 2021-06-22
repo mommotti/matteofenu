@@ -56,7 +56,8 @@ class About extends Component {
                     <br></br>
 
                     <ScrollAnimation animateIn="fadeIn">
-                    <svg width="167px" height="429px" viewBox="0 0 167 429" version="1.1" xmlns="http://www.w3.org/2000/svg">
+                    
+<svg width="200px" height="470px" viewBox="0 0 167 429" version="1.1" xmlns="http://www.w3.org/2000/svg" >
     <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
         <g id="-" transform="translate(-116.000000, -42.000000)">
             <g id="Group-10" transform="translate(116.000000, 42.000000)">
@@ -100,7 +101,7 @@ class About extends Component {
                 </g>
                 <g id="Group-6" transform="translate(137.000000, 0.000000)">
                     <g id="Group-7">
-                        <polygon id="Rectangle" fill-opacity="0.75" fill="#93A7FD" points="0 0 15 27.8987342 30 0 30 124.101266 15 152 0 124.101266"></polygon>
+                        <polygon id="Rectangle" fill="#93A7FD" points="0 0 15 27.8987342 30 0 30 124.101266 15 152 0 124.101266"></polygon>
                         <text id="UNDERSTAND" font-family="OpenSans-Bold, Open Sans" font-size="7" font-weight="bold" fill="#FFFFFF">
                             <tspan x="12.605042" y="43">U</tspan>
                             <tspan x="12.605042" y="52">N</tspan>
