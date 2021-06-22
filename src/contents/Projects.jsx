@@ -3,7 +3,8 @@ class Projects extends Component {
     render() {
         return (
             <div className="condiv">
-                <h1 className="subtopic">My Projects</h1>
+                <h1 className="subtopic">My Projects <span style={{fontSize: "0.5em"}}>(full stack development)</span></h1>
+
                 <div class="projects-wrapper">
                     {/* PROJECT 1 */}
                     <div class="project-card pc1">

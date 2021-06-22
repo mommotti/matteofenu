@@ -78,8 +78,6 @@ class Navbar extends Component {
                     <ul onClick={() => this.setState({ active: !this.state.active })}>
                         <Navitem item="Home" tolink="/" activec={this.activeitem}></Navitem>
                         <hr />
-                        <Navitem item="About" tolink="/about" activec={this.activeitem}></Navitem>
-                        <hr />
                         <Navitem item="UX" tolink="/ux" activec={this.activeitem}></Navitem>
                         <hr />
                         <Navitem item="Skills" tolink="/skills" activec={this.activeitem}></Navitem>
@@ -89,8 +87,6 @@ class Navbar extends Component {
                         <Navitem item="Graphics" tolink="/graphics" activec={this.activeitem}></Navitem>
                         <hr />
                         <Navitem item="Animations" tolink="/animations" activec={this.activeitem}></Navitem>
-                        <hr />
-                        <Navitem item="Contact" tolink="/contact" activec={this.activeitem}></Navitem>
                     </ul>
                 </nav>
             </>

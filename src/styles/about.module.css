@@ -7,7 +7,7 @@
     box-shadow: 0 -4px 10px rgba(102, 126, 234,0.2), 0 4px 10px rgba(118, 75, 162,0.2);
   }
   .design-text{
-    width: 80%;
+  
     background-color: red;
     font-weight: 800;
     border-bottom: 5px solid #667EEA;
@@ -23,6 +23,11 @@
     -webkit-text-fill-color: transparent; 
     -moz-background-clip: text;
     -moz-text-fill-color: transparent;
+  }
+  .design-text-home {
+    margin-top: 50px;
+    margin-bottom: 100px;
+    width: 80%;
   }
   .design-text-design{
     background-color: red;

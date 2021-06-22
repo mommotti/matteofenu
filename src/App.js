@@ -6,11 +6,9 @@ import {
 } from "react-router-dom";
 import { Helmet } from 'react-helmet'
 import Home from './contents/Home'
-import About from './contents/About'
 import UX from './contents/UX';
 import Skills from './contents/Skills';
 import Projects from './contents/Projects';
-import Contact from './contents/Contact';
 import Graphics from './contents/Graphics';
 import Animations from './contents/Animations';
 import Navbar from './components/Navbar';
@@ -35,13 +33,6 @@ class App extends Component {
             </Helmet>
             <Home />
           </Route>
-          {/* Route for About.js contents */}
-          <Route path="/about">
-            <Helmet>
-              <title>About | Matteo Fenu</title>
-            </Helmet>
-            <About />
-          </Route>
           {/* Route for UX.js contents */}
           <Route path="/ux">
             <Helmet>
@@ -62,13 +53,6 @@ class App extends Component {
               <title>Projects | Matteo Fenu</title>
             </Helmet>
             <Projects />
-          </Route>
-          {/* Route for Contacts.js contents */}
-          <Route path="/contact">
-            <Helmet>
-              <title>Contact | Matteo Fenu</title>
-            </Helmet>
-            <Contact />
           </Route>
           {/* Route for Contacts.js contents */}
           <Route path="/graphics">
