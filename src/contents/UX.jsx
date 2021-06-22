@@ -19,11 +19,11 @@ class About extends Component {
                     <hr />
                     <br></br>
                     <br></br>
-                    <h1 className="design-text">MY CORE CONCEPTS:</h1>
+                    <h1 className="design-text design-text-h">my core concepts:</h1>
                     <br></br>
                     <br></br>
                     <ScrollAnimation animateIn='fadeIn' animateOnce="True">
-                    <h2 className="design-text">01 - USER RESEARCH.</h2>
+                    <h2 className="design-text">01 - user research</h2>
                     The first stage of UX design is all about empathizing with the target users and discovery more about them.
                     <br></br>During the course provided by Accenture, I learnt how to undertake effective user research methods. There are many ways to learn about the target users, interviews or focus groups with typical users are a great way to start gathering precious information.
                     <br></br>A good way to empathize with users is by giving them surveys and questionnaires about what they do right now and how they feel about it.
@@ -31,7 +31,7 @@ class About extends Component {
                     <br></br>I'm currently learning more about user research, since it's the foundation of the UX design process.
                     </ScrollAnimation>
                     <br></br><br></br>
-                    <ScrollAnimation animateIn='fadeIn' animateOnce="True"> <h2 className="design-text">02 - PSYCHOLOGY.</h2>
+                    <ScrollAnimation animateIn='fadeIn' animateOnce="True"> <h2 className="design-text">02 - psychology</h2>
                     I have always been intrigued by the psychology behind people's problems and behaviours.
                     <br></br>This particular interest, plus my love for design, drove me to pursue a career in UX.
                     <br></br>I'm finding myself more and more passionate in learning how feelings, thoughts and actions can be improved by an amazing design.
@@ -39,7 +39,7 @@ class About extends Component {
                     </ScrollAnimation>
                     <br></br><br></br>
                     <ScrollAnimation animateIn='fadeIn' animateOnce="True">
-                    <h2 className="design-text">03 - ACTUAL DESIGN.</h2>
+                    <h2 className="design-text">03 - design process</h2>
                     I employ a low to high fidelity approach.
                     <br></br>From information architecture to wireframes, to actual interactive prototypes.
                     <br></br>I start with pencil and paper, sticky notes, allowing myself to quickly record my thoughts and ideas on paper without any delay.
@@ -148,21 +148,33 @@ class About extends Component {
         </g>
     </g>
 </svg>
-</ScrollAnimation>               
-<img className="image-card card3"src={require('../img/images/3.jpg')} />
+</ScrollAnimation>  
+                    <br></br>
+                    <br></br>
+<h1 className="design-text design-text-h">wireframe&prototype demo:</h1>
+<br></br>
+                    <br></br>
+<ScrollAnimation animateIn="flipInY" animateOnce="True">           
+<img  className="image-card card3"src={require('../img/images/3.jpg')} />
 <p>3th iteration.</p>
-
+</ScrollAnimation>
+<ScrollAnimation animateIn="flipInY" animateOnce="True">   
 <img className="image-card card5"src={require('../img/images/5.jpg')} />
 <p>5th iteration.</p>
+</ScrollAnimation>  
+<ScrollAnimation animateIn="flipInY" animateOnce="True"> 
 <img className="image-card card7"src={require('../img/images/7.jpg')} />
 <p>7th, the one I chose.</p>
-
+</ScrollAnimation>  
 
                     <br></br>
                     <br></br>
                     <br></br>   <br></br>
                     <br></br>
-                    <p>🌱Under Construction🌱 🚨</p>
+                    <h1>🚨🚨🌱Under Construction🌱 🚨🚨</h1>
+                    <h3>more information coming soon! 23/June/2021</h3>
+                    <br></br>
+                    <br></br>
                     <br></br>
                     <br></br>
 
