@@ -12,6 +12,21 @@
   .image-ux{
     width: 100%;
   }
+  .image-card{
+    width: 300px;
+    margin: 30px 0;
+  }
+  
+  .card3{    
+    box-shadow: 10px 15px #9c5ae9;
+  }
+  .card5{    
+    box-shadow: 10px 15px #6956e7;
+  }
+  .card7{    
+    box-shadow: 10px 15px #3c5dff;
+  }
+
   .design-text{
     background-color: red;
     font-weight: 800;

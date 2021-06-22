@@ -22,7 +22,7 @@ class About extends Component {
                     <h1 className="design-text">MY CORE CONCEPTS:</h1>
                     <br></br>
                     <br></br>
-                    <ScrollAnimation animateIn='bounceInRight' animateOnce="True">
+                    <ScrollAnimation animateIn='fadeIn' animateOnce="True">
                     <h2 className="design-text">01 - USER RESEARCH.</h2>
                     The first stage of UX design is all about empathizing with the target users and discovery more about them.
                     <br></br>During the course provided by Accenture, I learnt how to undertake effective user research methods. There are many ways to learn about the target users, interviews or focus groups with typical users are a great way to start gathering precious information.
@@ -31,14 +31,14 @@ class About extends Component {
                     <br></br>I'm currently learning more about user research, since it's the foundation of the UX design process.
                     </ScrollAnimation>
                     <br></br><br></br>
-                    <ScrollAnimation animateIn='bounceInRight' animateOnce="True"> <h2 className="design-text">02 - PSYCHOLOGY.</h2>
+                    <ScrollAnimation animateIn='fadeIn' animateOnce="True"> <h2 className="design-text">02 - PSYCHOLOGY.</h2>
                     I have always been intrigued by the psychology behind people's problems and behaviours.
                     <br></br>This particular interest, plus my love for design, drove me to pursue a career in UX.
                     <br></br>I'm finding myself more and more passionate in learning how feelings, thoughts and actions can be improved by an amazing design.
                     <br></br>I'm a person that brainstorms a lot by nature, and knowing that a profession that embraces both beautiful designs and deep understanding of users psychology really sells this profession for me.
                     </ScrollAnimation>
                     <br></br><br></br>
-                    <ScrollAnimation animateIn='bounceInRight' animateOnce="True">
+                    <ScrollAnimation animateIn='fadeIn' animateOnce="True">
                     <h2 className="design-text">03 - ACTUAL DESIGN.</h2>
                     I employ a low to high fidelity approach.
                     <br></br>From information architecture to wireframes, to actual interactive prototypes.
@@ -55,7 +55,7 @@ class About extends Component {
                     <br></br>
                     <br></br>
 
-                    <ScrollAnimation animateIn="fadeIn">
+                    <ScrollAnimation animateIn="fadeIn" animateOnce="True">
                     
 <svg width="200px" height="470px" viewBox="0 0 167 429" version="1.1" xmlns="http://www.w3.org/2000/svg" >
     <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
@@ -148,9 +148,16 @@ class About extends Component {
         </g>
     </g>
 </svg>
-                    </ScrollAnimation>               
+</ScrollAnimation>               
+<img className="image-card card3"src={require('../img/images/3.jpg')} />
+<p>3th iteration.</p>
 
-<br></br>
+<img className="image-card card5"src={require('../img/images/5.jpg')} />
+<p>5th iteration.</p>
+<img className="image-card card7"src={require('../img/images/7.jpg')} />
+<p>7th, the one I chose.</p>
+
+
                     <br></br>
                     <br></br>
                     <br></br>   <br></br>
