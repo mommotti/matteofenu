@@ -4,9 +4,7 @@ class Skills extends Component {
     render() {
         return (
             <div className="condiv skills-height">
-                <h1 className="subtopic">My Skills</h1>
-                
-                <span className="span-learn">currently learning <div className="span-dot"></div></span>
+                <h1 className="subtopic">My Skills<br></br><span className="span-learn" style={{fontSize: "0.5em"}}>currently learning<div className="span-dot"></div></span></h1>
                 <div className="skill-wrapper">
                     <div>
                         <h3 className="dev">Development:</h3>
@@ -100,8 +98,6 @@ class Skills extends Component {
                                 learn = {true}
                                 info="https://www.sketch.com/"
                                 icon={<svg width="48px" height="48px" viewBox="0 0 394 356" version="1.1" xmlns="http://www.w3.org/2000/svg">
-    <title>sketch-symbol</title>
-    <desc>Created with Sketch.</desc>
     <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
         <g id="sketch-symbol" fill-rule="nonzero">
             <polygon id="Path" fill="#FDB300" points="85.790323 11.7151549 196.602823 0 307.415323 11.7151549 393.205645 126.881084 196.602823 355.823009 0 126.881084"></polygon>

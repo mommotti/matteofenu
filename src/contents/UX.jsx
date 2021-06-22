@@ -43,6 +43,51 @@ class About extends Component {
                     <br></br>
                     <br></br>
                     <br></br>
+
+<svg width="200px" height="600px" viewBox="0 0 125 429" version="1.1" xmlns="http://www.w3.org/2000/svg" >
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="-" transform="translate(-170.000000, -37.000000)">
+            <g id="design-phases" transform="translate(170.000000, 37.000000)">
+                <g id="Group">
+                    <circle id="Oval" fill="#6177DE" cx="62.5" cy="62.5" r="62.5"></circle>
+                    <text id="Emphathise" font-family="Helvetica-Bold, Helvetica" font-size="13" font-weight="bold" letter-spacing="1.38125" fill="#FFFFFF">
+                        <tspan x="18.7519531" y="68">Emphathise</tspan>
+                    </text>
+                </g>
+                <g id="Group-2" transform="translate(0.000000, 125.000000)">
+                    <circle id="Oval-Copy-2" fill="#6C60BF" cx="62.5" cy="62.5" r="62.5"></circle>
+                    <text id="Ideate" font-family="Helvetica-Bold, Helvetica" font-size="13" font-weight="bold" letter-spacing="1.38125" fill="#FFFFFF">
+                        <tspan x="39.5703613" y="68">Ideate</tspan>
+                    </text>
+                </g>
+                <g id="Group-3" transform="translate(0.000000, 250.000000)">
+                    <circle id="Oval-Copy-4" fill="#754CA3" cx="62.5" cy="62.5" r="62.5"></circle>
+                    <text id="Test" font-family="Helvetica-Bold, Helvetica" font-size="13" font-weight="bold" letter-spacing="1.38125" fill="#FFFFFF">
+                        <tspan x="46.8517578" y="68">Test</tspan>
+                    </text>
+                </g>
+                <g id="Group-5" transform="translate(11.000000, 74.000000)">
+                    <circle id="Oval-Copy" fill-opacity="0.95" fill="#97A9FF" cx="51.5" cy="51.5" r="51.5"></circle>
+                    <text id="Define" font-family="Helvetica-Bold, Helvetica" font-size="13" font-weight="bold" letter-spacing="1.38125" fill="#FFFFFF">
+                        <tspan x="28.1818848" y="56">Define</tspan>
+                    </text>
+                </g>
+                <g id="Group-4" transform="translate(11.000000, 200.000000)">
+                    <circle id="Oval-Copy-6" fill-opacity="0.95" fill="#9B8FED" cx="51.5" cy="51.5" r="51.5"></circle>
+                    <text id="Prototype" font-family="Helvetica-Bold, Helvetica" font-size="13" font-weight="bold" letter-spacing="1.38125" fill="#FFFFFF">
+                        <tspan x="15.4489258" y="56">Prototype</tspan>
+                    </text>
+                </g>
+                <g id="Group-4-Copy" transform="translate(11.000000, 326.000000)">
+                    <circle id="Oval-Copy-6" fill-opacity="0.95" fill="#A87FD6" cx="51.5" cy="51.5" r="51.5"></circle>
+                    <text id="Implement" font-family="Helvetica-Bold, Helvetica" font-size="13" font-weight="bold" letter-spacing="1.38125" fill="#FFFFFF">
+                        <tspan x="12.7780273" y="56">Implement</tspan>
+                    </text>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
                 </div>
             </div>)
     }

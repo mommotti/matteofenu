@@ -29,7 +29,7 @@ class App extends Component {
           {/* Route for Home.js contents */}
           <Route exact path="/">
             <Helmet>
-              <title>Home | Matteo Fenu</title>
+              <title>About | Matteo Fenu</title>
             </Helmet>
             <Home />
           </Route>

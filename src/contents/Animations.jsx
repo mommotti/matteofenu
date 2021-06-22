@@ -58,7 +58,7 @@ export default function App() {
 
     return (
         <div className="condiv">
-            <h1 className="subtopic">My Animations</h1>
+            <h1 className="subtopic">My Animations <br></br><span style={{fontSize: "0.5em"}}>(Lottie & Adobe AE)</span></h1>
             <div className="animations-grid">
                 <div className="anim first-anim">
                     <Lottie options={defaultOptions1} />

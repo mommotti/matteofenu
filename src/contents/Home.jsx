@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
 import profilepic from '../img/img.jpg';
+import { Link } from "react-router-dom";
+
 class Home extends Component {
     render() {
         return (
@@ -12,8 +14,20 @@ I’ve always been intrigued by how a thoughtful design has the ability to chang
 <br></br>
 <br></br>
 <div style={{textAlign: "left"}}> - Matteo (^o^)/</div>
-<br></br><br></br><a style={{color: "blue"}} href="mailto:matfen97@gmail.com">matfen97@gmail.com</a>
+<br></br>
+<div style={{textAlign: "left"}}> <a style={{ borderBottom:"2px solid blue" ,color: "blue"}} href="mailto:matfen97@gmail.com">matfen97@gmail.com</a></div>
+<br></br>
+<br></br>
+<br></br>
+<hr />
+<br></br>
+“The design It's not just what it looks like and feels like. Design is how it works.” - Steve Jobs
 </div>
+<Link to="/ux"><h1 className="design-text">UX ➔</h1></Link>
+<br></br>
+<br></br>
+<br></br>
+<br></br>
             </div>)
     }
 }

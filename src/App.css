@@ -164,7 +164,7 @@ h1,h2,h3,h4,p{
 {
   margin-right: 30px;
   font-size: 25px;
-  color: #abb7ec;
+  color: #8b9adb;
 }
 
 .social i:hover
@@ -185,7 +185,7 @@ h1,h2,h3,h4,p{
   position: absolute !important;
   bottom: 0 !important;
   margin-bottom: 0 !important;
-  color:#cebfdd;
+  color:#b095ca;
 }
 
 .social-distancing {
@@ -217,7 +217,7 @@ h1,h2,h3,h4,p{
 
 /*  MEDIA  */
 
-@media all and (max-width: 500px) {
+@media all and (max-width: 700px) {
   :root {
     --fontsize-nav:1rem;
     --sidebar-flex:0;

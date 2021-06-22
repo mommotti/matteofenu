@@ -51,104 +51,104 @@ export default class LightboxExample extends Component {
 
         return (
             <div className="condiv skills-height">
-                <h1 className="subtopic">My Graphics</h1>
+                <h1 className="subtopic">My Graphics <br></br><span style={{fontSize: "0.5em"}}>(Adobe Suite)</span></h1>
                 <div className="gallery">
                     <div className="card" onClick={() => this.setState({ photoIndex: 0, isOpen: true })}> <img
                         src={`${ai8}?nf_resize=fit&w=400&h=300`} alt=""></img>
                         <div className="info">
-                            <h1>Adobe Illustrator App Prototype</h1>
+                            <h1>Adobe Illustrator <br></br>-<br></br> Designflows 2020 UI Contest</h1>
                         </div>
                     </div>
                     <div className="card" onClick={() => this.setState({ photoIndex: 1, isOpen: true })}><img
                         src={`${ps6}?nf_resize=fit&w=400&h=300`} alt=""></img>
                         <div className="info">
-                            <h1>Adobe Photoshop</h1>
+                            <h1>Adobe Photoshop<br></br>-<br></br>Digital Painting</h1>
                         </div>
                     </div>
                     <div className="card" onClick={() => this.setState({ photoIndex: 2, isOpen: true })}> <img
                         src={`${ai1}?nf_resize=fit&w=400&h=300`} alt=""></img>
                         <div className="info">
-                            <h1>Adobe Illustrator</h1>
+                            <h1>Adobe Illustrator<br></br>-<br></br> Soft Shapes</h1>
                         </div>
                     </div>
                     <div className="card" onClick={() => this.setState({ photoIndex: 3, isOpen: true })}> <img
                         src={`${ps1}?nf_resize=fit&w=400&h=300`} alt=""></img>
                         <div className="info">
-                            <h1>Adobe Photoshop</h1>
+                            <h1>Adobe Photoshop<br></br>-<br></br> Face Manipulation</h1>
                         </div>
                     </div>
                     <div className="card" onClick={() => this.setState({ photoIndex: 4, isOpen: true })}><img
                         src={`${ai2}?nf_resize=fit&w=400&h=300`} alt=""></img>
                         <div className="info">
-                            <h1>Adobe Illustrator</h1>
+                            <h1>Adobe Illustrator <br></br>-<br></br> Waves</h1>
                         </div>
                     </div>
                     <div className="card" onClick={() => this.setState({ photoIndex: 5, isOpen: true })}><img
                         src={`${ps2}?nf_resize=fit&w=400&h=300`} alt=""></img>
                         <div className="info">
-                            <h1>Adobe Photoshop</h1>
+                            <h1>Adobe Photoshop<br></br>-<br></br> Frog Manipulation</h1>
                         </div>
                     </div >
                     <div className="card" onClick={() => this.setState({ photoIndex: 6, isOpen: true })}> <img
                         src={`${ai3}?nf_resize=fit&w=400&h=300`} alt=""></img>
                         <div className="info">
-                            <h1>Adobe Illustrator</h1>
+                            <h1>Adobe Illustrator<br></br>-<br></br> Minimal Hills</h1>
                         </div>
                     </div >
                     <div className="card" onClick={() => this.setState({ photoIndex: 7, isOpen: true })}><img
                         src={`${ps3}?nf_resize=fit&w=400&h=300`} alt=""></img>
                         <div className="info">
-                            <h1>Adobe Photoshop</h1>
+                            <h1>Adobe Photoshop<br></br>-<br></br> Fairy Flower</h1>
                         </div>
                     </div >
                     <div className="card" onClick={() => this.setState({ photoIndex: 8, isOpen: true })}><img
                         src={`${ai4}?nf_resize=fit&w=400&h=300`} alt=""></img>
                         <div className="info">
-                            <h1>Adobe Illustrator</h1>
+                            <h1>Adobe Illustrator<br></br>-<br></br> Dots Vortex</h1>
                         </div>
                     </div >
                     <div className="card" onClick={() => this.setState({ photoIndex: 9, isOpen: true })}><img
                         src={`${ps4}?nf_resize=fit&w=400&h=300`} alt=""></img>
                         <div className="info">
-                            <h1>Adobe Photoshop</h1>
+                            <h1>Adobe Photoshop<br></br>-<br></br> Fairy Butterfly</h1>
                         </div>
                     </div>
                     <div className="card" onClick={() => this.setState({ photoIndex: 10, isOpen: true })}><img
                         src={`${ai5}?nf_resize=fit&w=400&h=300`} alt=""></img>
                         <div className="info">
-                            <h1>Adobe Illustrator</h1>
+                            <h1>Adobe Illustrator<br></br>-<br></br> Minimal Squares</h1>
                         </div>
                     </div >
                     <div className="card" onClick={() => this.setState({ photoIndex: 11, isOpen: true })}><img
                         src={`${ps5}?nf_resize=fit&w=400&h=300`} alt=""></img>
                         <div className="info">
-                            <h1>Adobe Photoshop</h1>
+                            <h1>Adobe Photoshop<br></br>-<br></br>Seriously Python</h1>
                         </div>
                     </div>
                     <div className="card" onClick={() => this.setState({ photoIndex: 12, isOpen: true })}><img
                         src={`${ai6}?nf_resize=fit&w=400&h=300`} alt=""></img>
                         <div className="info">
-                            <h1>Adobe Illustrator</h1>
+                            <h1>Adobe Illustrator<br></br>-<br></br> Stacking Paper</h1>
                         </div>
                     </div>
 
                     <div className="card" onClick={() => this.setState({ photoIndex: 13, isOpen: true })}><img
                         src={`${ps7}?nf_resize=fit&w=400&h=300`} alt=""></img>
                         <div className="info">
-                            <h1>Adobe Photoshop</h1>
+                            <h1>Adobe Photoshop<br></br>-<br></br>Shapes Noise</h1>
                         </div>
                     </div>
 
                     <div className="card" onClick={() => this.setState({ photoIndex: 14, isOpen: true })}><img
                         src={`${ai7}?nf_resize=fit&w=400&h=300`} alt=""></img>
                         <div className="info">
-                            <h1>Adobe Illustrator</h1>
+                            <h1>Adobe Illustrator<br></br>-<br></br> Exploding Shapes</h1>
                         </div>
                     </div >
                     <div className="card" onClick={() => this.setState({ photoIndex: 15, isOpen: true })}><img
                         src={`${ps8}?nf_resize=fit&w=400&h=300`} alt=""></img>
                         <div className="info">
-                            <h1>Adobe Photoshop</h1>
+                            <h1>Adobe Photoshop<br></br>-<br></br>500 Manipulation</h1>
                         </div>
                     </div>
 
