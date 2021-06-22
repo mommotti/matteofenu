@@ -4,7 +4,7 @@ class About extends Component {
     render() {
         return (
             <div className="condiv skills-height">
-                <h1 className="subtopic">My conversion to UX /(^o^)/</h1>
+                <h1 className="subtopic">My love for UX /(^o^)/</h1>
                 <div className="about ux-w">
                     <h4 style={{backgroundColor: "rgba(255, 255, 139, 0.5)"}}>Due to my love for design, I am now switching my career to be all about User Experience design. </h4>
                     <h4>I am quick at learning and applying new technologies and information, especially when I'm passionate about a topic. For me, UX design wraps up this concept perfectly.</h4>    
