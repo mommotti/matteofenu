@@ -9,7 +9,9 @@
   .five_designs{
     align-self: center;
   }
-
+  .image-ux{
+    width: 100%;
+  }
   .design-text{
     background-color: red;
     font-weight: 800;
