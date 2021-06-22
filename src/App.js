@@ -1,8 +1,9 @@
-import React, { Component } from 'react';
+import React, { Component, useEffect } from 'react';
 import Social from './components/Social'
 import './App.css';
 import {
-  BrowserRouter as Router, Route,
+  BrowserRouter as Router, Route, useLocation,
+  withRouter
 } from "react-router-dom";
 import { Helmet } from 'react-helmet'
 import Home from './contents/Home'
@@ -12,6 +13,15 @@ import Projects from './contents/Projects';
 import Graphics from './contents/Graphics';
 import Animations from './contents/Animations';
 import Navbar from './components/Navbar';
+
+function _ScrollToTop(props) {
+  const { pathname } = useLocation();
+  useEffect(() => {
+      window.scrollTo(0, 0);
+  }, [pathname]);
+  return props.children
+}
+const ScrollToTop = withRouter(_ScrollToTop)
 class App extends Component {
   constructor(props) {
     super(props);
@@ -22,6 +32,7 @@ class App extends Component {
   render() {
     return (
       < Router >
+      <ScrollToTop>
         <div className="App">
           <div class="burger" >
           </div>
@@ -69,6 +80,7 @@ class App extends Component {
           </Route>
           <Social />
         </div>
+        </ScrollToTop>
       </Router >
     )
   }
