@@ -7,16 +7,16 @@ class About extends Component {
             <div className="condiv skills-height">
                 <h1 className="subtopic">My love for UX  <br></br><span style={{fontSize: "0.5em"}}>\(^o^)/</span></h1>
                 <div className="about ux-w">
-                    <h4 style={{backgroundColor: "rgba(255, 255, 139, 0.5)"}}>Due to my love for design, I am now switching my career to be all about User Experience design. </h4>
-                    <h4>I am quick at learning and applying new technologies and information, especially when I'm passionate about a topic. For me, UX design wraps up this concept perfectly.</h4>    
+                    <h3 style={{backgroundColor: "rgba(255, 255, 139, 0.5)"}}>Due to my love for design, I am now switching my career to be all about User Experience design. </h3>
+                    <h3>I am quick at learning and applying new technologies and information, especially when I'm passionate about a topic. For me, UX design wraps up this concept perfectly.</h3>    
                     <br></br>
-                    <p>After being part of the biggest Italian UI contest, <a  style={{color: "black", fontWeight: 700, textDecoration: "underline"}} href="https://designflows.it/" target="_blank">Designflows 2020</a> with <a  style={{color: "black", fontWeight: 700, textDecoration: "underline"}} href="https://matteofenu.netlify.app/assets/projectImgs/ai8.jpg" target="_blank">this</a> entry, 
-                    I realized where my passion lies in: <p className="design-text-design">DESIGN !</p>
+                    <p>After being part of the biggest Italian mobile UI contest (<a  style={{color: "black", fontWeight: 700, textDecoration: "underline"}} href="https://designflows.it/" target="_blank">Designflows 2020</a>), 
+                    I realized where my passion lies in: <h2 className="design-text-design">DESIGN !</h2>
                     <br></br>
+                    <h5>My Designflows entry</h5>
                         <img className="image-ux"src={require('../img/images/ai8.jpg')} />
                     <br></br>
                     <br></br>
-                    <hr />
                     <br></br>
                     <br></br>
                     <h1 className="design-text design-text-h">my core concepts:</h1>
@@ -184,7 +184,7 @@ After dividing an A4 page into 8 segments, <br /> I then spent 1 minute for each
 </div>
 
                     <div className="card-wrap">
-                    <ScrollAnimation animateIn="fadeIn" animateOnce="True">
+                    <ScrollAnimation style={{margin: "0 auto"}} animateIn="fadeIn" animateOnce="True">
                     <h3 className="design-text design-text-smol">Final prototype, made with Sketch</h3>
 <img  className="image-phone" src={require('../img/images/phone.jpg')} />
                     </ScrollAnimation>
@@ -342,12 +342,7 @@ After dividing an A4 page into 8 segments, <br /> I then spent 1 minute for each
 
 </ScrollAnimation>
                     </div>
-                    <br></br>
-                    <br></br>
-                    <br></br>   <br></br>
-                    <br></br>
-                    <h1>🚨🚨🌱Under Construction🌱 🚨🚨</h1>
-                    <h3>more information coming soon! 23/June/2021</h3>
+
                     <br></br>
                     <br></br>
                     <br></br>

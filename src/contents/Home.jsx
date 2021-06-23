@@ -9,7 +9,7 @@ class Home extends Component {
                 <img alt="profilepic" src={profilepic} className="profilepic">
                 </img>
                 <p>Hi, I'm Matteo Fenu 👋, <br></br>UX/UI <u className="des">Designer</u> | Web <u className="dev">Developer</u></p>
-<div className="design-text-home" >
+<p className="design-text-home" >
 I’ve always been intrigued by how a thoughtful design has the ability to change our planet. <br></br>Whether it’s solving an user's problem or providing users with inclusive design solutions,<br></br> I always aspire to create solutions focused on people with impairments first. <br></br> Whether it's abstracting complexity from a layout or increasing the font size or contrast, I always look forward to equity. <br></br>In the past few years, I’ve found myself in front-end, back-end, visual design and language learning.
 <br></br>
 <br></br>
@@ -22,7 +22,7 @@ I’ve always been intrigued by how a thoughtful design has the ability to chang
 <hr />
 <br></br>
 “The design It's not just what it looks like and feels like. Design is how it works.” - Steve Jobs
-</div>
+</p>
 <Link to="/ux"><h1 className="design-text">UX ➔</h1></Link>
 <br></br>
 <br></br>
