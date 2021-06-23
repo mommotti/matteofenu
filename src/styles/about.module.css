@@ -17,7 +17,7 @@
     margin:0px  20px 30px 20px;
   }
   .icon-proto{
-    width: 70px;
+    width: 75px;
     margin: 5px;
     border-radius: 50%;
 
@@ -55,15 +55,15 @@
   }
 
   .color1{
-    height: 70px;
+    height: 75px;
     background: rgba(191, 15,15,0.5);
   }
   .color2{
-    height: 70px;
+    height: 75px;
     background: rgba(242, 100,68,0.5);
   }
   .color3{
-    height: 70px;
+    height: 75px;
     background: rgba(19,7,64,0.5);
   }
 
@@ -153,9 +153,9 @@ display: grid;
       justify-content: center;
     }
     .image-card{
-      width: 250px;
+      width: 270px;
     }
     .image-phone{
-      width: 250px;
+      width: 270px;
     }
   }

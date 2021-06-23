@@ -184,10 +184,8 @@ After dividing an A4 page into 8 segments, <br /> I then spent 1 minute for each
 </div>
 
                     <div className="card-wrap">
-                    <ScrollAnimation style={{margin: "0 auto"}} animateIn="fadeIn" animateOnce="True">
                     <h3 className="design-text design-text-smol">Final prototype, made with Sketch</h3>
 <img  className="image-phone" src={require('../img/images/phone.jpg')} />
-                    </ScrollAnimation>
                     <br></br>
                     <ScrollAnimation animateIn="fadeIn" animateOnce="True">
 
@@ -196,7 +194,7 @@ After dividing an A4 page into 8 segments, <br /> I then spent 1 minute for each
 <h3 className="design-text design-text-smol">Icons made with Adobe AI</h3>
 <div className="bike-icons">
 <div className="icon-proto icon1">
-<svg width="70px" height="70px" viewBox="0 0 152 152" version="1.1" xmlns="http://www.w3.org/2000/svg">
+<svg width="75px" height="75px" viewBox="0 0 152 152" version="1.1" xmlns="http://www.w3.org/2000/svg">
     <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
         <g id="Mockup-Matteo-F." transform="translate(-1019.000000, -91.000000)" stroke="#1D1D1B">
             <g id="wheel" transform="translate(1023.992561, 95.992561)">
@@ -244,7 +242,7 @@ After dividing an A4 page into 8 segments, <br /> I then spent 1 minute for each
 </svg>
 </div>
 <div className="icon-proto icon2">
-<svg width="70px" height="70px" viewBox="0 0 150 150" version="1.1" xmlns="http://www.w3.org/2000/svg">
+<svg width="75px" height="75px" viewBox="0 0 150 150" version="1.1" xmlns="http://www.w3.org/2000/svg">
     <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
         <g id="Mockup-Matteo-F." transform="translate(-1442.000000, -63.000000)">
             <g id="gear" transform="translate(1442.000000, 63.000000)">
@@ -282,7 +280,7 @@ After dividing an A4 page into 8 segments, <br /> I then spent 1 minute for each
 </svg>
 </div>
 <div className="icon-proto icon3">
-<svg width="70px" height="70px" viewBox="0 0 153 151" version="1.1" xmlns="http://www.w3.org/2000/svg">
+<svg width="75px" height="75px" viewBox="0 0 153 151" version="1.1" xmlns="http://www.w3.org/2000/svg">
     <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
         <g id="Mockup-Matteo-F." transform="translate(-1317.000000, -174.000000)" fill="#1D1D1B" fill-rule="nonzero">
             <g id="chiacacc" transform="translate(1317.000000, 174.000000)">
@@ -297,7 +295,7 @@ After dividing an A4 page into 8 segments, <br /> I then spent 1 minute for each
 <h3 className="design-text design-text-smol">Color Scheme</h3>
 <div className="bike-icons">
 <div className="icon-proto color1">
-<svg width="70px" height="70px" viewBox="0 0 107 86" version="1.1" xmlns="http://www.w3.org/2000/svg">
+<svg width="75px" height="75px" viewBox="0 0 107 86" version="1.1" xmlns="http://www.w3.org/2000/svg">
     <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
         <g id="Mockup-Matteo-F." transform="translate(-1195.000000, -79.000000)">
             <g id="Group-10" transform="translate(1248.609631, 122.029376) rotate(-345.000000) translate(-1248.609631, -122.029376) translate(1202.496133, 90.529376)">
@@ -311,7 +309,7 @@ After dividing an A4 page into 8 segments, <br /> I then spent 1 minute for each
 </svg>
 </div>
 <div className="icon-proto color2">
-<svg width="70px" height="70px" viewBox="0 0 107 86" version="1.1" xmlns="http://www.w3.org/2000/svg">
+<svg width="75px" height="75px" viewBox="0 0 107 86" version="1.1" xmlns="http://www.w3.org/2000/svg">
     <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
         <g id="Mockup-Matteo-F." transform="translate(-1195.000000, -79.000000)">
             <g id="Group-10" transform="translate(1248.609631, 122.029376) rotate(-345.000000) translate(-1248.609631, -122.029376) translate(1202.496133, 90.529376)">
@@ -325,7 +323,7 @@ After dividing an A4 page into 8 segments, <br /> I then spent 1 minute for each
 </svg>
 </div>
 <div className="icon-proto color3">
-<svg width="70px" height="70px" viewBox="0 0 107 86" version="1.1" xmlns="http://www.w3.org/2000/svg">
+<svg width="75px" height="75px" viewBox="0 0 107 86" version="1.1" xmlns="http://www.w3.org/2000/svg">
     <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
         <g id="Mockup-Matteo-F." transform="translate(-1195.000000, -79.000000)">
             <g id="Group-10" transform="translate(1248.609631, 122.029376) rotate(-345.000000) translate(-1248.609631, -122.029376) translate(1202.496133, 90.529376)">
