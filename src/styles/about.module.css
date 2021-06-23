@@ -26,13 +26,13 @@
     display: flex;
   }
   .icon1{
-    filter: drop-shadow(5px 0px 0px rgba(156, 90, 233, 0.5)); 
+    filter: drop-shadow(5px 0px 0px rgba(191, 15,15,0.5)); 
   }
   .icon2{
-    filter: drop-shadow(5px 0px 0px rgba(105, 86, 231, 0.5)); 
+    filter: drop-shadow(5px 0px 0px rgba(226, 65,40,0.5)); 
   }
   .icon3{
-    filter: drop-shadow(5px 0px 0px rgba(60, 93, 255, 0.5)); 
+    filter: drop-shadow(5px 0px 0px rgba(242, 100,68,0.5)); 
   }
 
   .image-phone{
