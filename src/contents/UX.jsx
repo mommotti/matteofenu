@@ -156,8 +156,8 @@ class About extends Component {
 <br></br>
 <br></br>
                     <br></br>
-<h2 className="design-text">The goal of this demonstration is to create a landing page to advertise Trek's Marlin model. <br />
-After dividing a piece of paper into 8 segments, <br /> I then spent 1 minute for each iteration (segment). <br /></h2>
+<h2 className="design-text">The goal of this demonstration is to create a landing page to advertise Trek's Marlin model (a bike). <br />
+After dividing an A4 page into 8 segments, <br /> I then spent 1 minute for each wireframe. <br /></h2>
 <img className="image-ux"src={require('../img/images/iterations.jpg')} />
 <br></br>
 <br></br>
@@ -171,21 +171,21 @@ After dividing a piece of paper into 8 segments, <br /> I then spent 1 minute fo
 <img  className="image-card card3"src={require('../img/images/3.jpg')} />
 </ScrollAnimation>
 
-<ScrollAnimation animateIn="flipInY" animateOnce="True">   
+<ScrollAnimation delay={400} animateIn="flipInY" animateOnce="True">   
 <h3 className="design-text design-text-smol">5th iteration</h3>
 <img className="image-card card5"src={require('../img/images/5.jpg')} />
 </ScrollAnimation>  
 
-<ScrollAnimation animateIn="flipInY" animateOnce="True"> 
+<ScrollAnimation delay={800} animateIn="flipInY" animateOnce="True"> 
 <h3 className="design-text design-text-smol">7th, the one I chose</h3>
 <img className="image-card card7"src={require('../img/images/7.jpg')} />
 </ScrollAnimation>  
 
 </div>
 
-                    {/* <div className="card-wrap">
+                    <div className="card-wrap">
                     <ScrollAnimation animateIn="fadeIn" animateOnce="True">
-                    <h3 className="design-text design-text-smol">Final prototype, made using Sketch</h3>
+                    <h3 className="design-text design-text-smol">Final prototype, made with Sketch</h3>
 <img  className="image-phone" src={require('../img/images/phone.jpg')} />
                     </ScrollAnimation>
                     <br></br>
@@ -295,7 +295,7 @@ After dividing a piece of paper into 8 segments, <br /> I then spent 1 minute fo
 </div>
 </div>
 </ScrollAnimation>
-                    </div> */}
+                    </div>
                     <br></br>
                     <br></br>
                     <br></br>   <br></br>
