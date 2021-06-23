@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import ScrollAnimation from 'react-animate-on-scroll';
+import { Link } from "react-router-dom";
 
 class About extends Component {
     render() {
@@ -158,10 +159,11 @@ class About extends Component {
                     <br></br>
 <h2 className="design-text">The goal of this demonstration is to create a landing page to advertise Trek's Marlin model (a bike). <br />
 After dividing an A4 page into 8 segments, <br /> I then spent 1 minute for each wireframe. <br /></h2>
+<br></br>
 <img className="image-ux"src={require('../img/images/iterations.jpg')} />
 <br></br>
 <br></br>
-<h2 className="design-text">here I display 3 of those iterations.
+<h2 className="design-text">here I display 3 of those iterations
 </h2>
 <br></br>
 <div className="card-wrap">
@@ -171,26 +173,32 @@ After dividing an A4 page into 8 segments, <br /> I then spent 1 minute for each
 <img  className="image-card card3"src={require('../img/images/3.jpg')} />
 </ScrollAnimation>
 
-<ScrollAnimation delay={400} animateIn="flipInY" animateOnce="True">   
+<ScrollAnimation delay={200} animateIn="flipInY" animateOnce="True">   
 <h3 className="design-text design-text-smol">5th iteration</h3>
 <img className="image-card card5"src={require('../img/images/5.jpg')} />
 </ScrollAnimation>  
 
-<ScrollAnimation delay={800} animateIn="flipInY" animateOnce="True"> 
+<ScrollAnimation delay={400} animateIn="flipInY" animateOnce="True"> 
 <h3 className="design-text design-text-smol">7th, the one I chose</h3>
 <img className="image-card card7"src={require('../img/images/7.jpg')} />
 </ScrollAnimation>  
 
 </div>
-
+<br></br>
+<h2 className="design-text">branding & prototyping
+</h2>
+<br></br>
                     <div className="card-wrap">
+                        <div>
                     <h3 className="design-text design-text-smol">Final prototype, made with Sketch</h3>
 <img  className="image-phone" src={require('../img/images/phone.jpg')} />
-                    <br></br>
+</div>           <br></br>
                     <ScrollAnimation animateIn="fadeIn" animateOnce="True">
-
+                    <div>
 <h3 className="design-text design-text-smol">Design details</h3>
 <img  className="image-phone" src={require('../img/images/detail.jpg')} />
+</div>  
+<br></br>
 <h3 className="design-text design-text-smol">Icons made with Adobe AI</h3>
 <div className="bike-icons">
 <div className="icon-proto icon1">
@@ -292,6 +300,7 @@ After dividing an A4 page into 8 segments, <br /> I then spent 1 minute for each
 </svg>
 </div>
 </div>
+<br></br>
 <h3 className="design-text design-text-smol">Color Scheme</h3>
 <div className="bike-icons">
 <div className="icon-proto color1">
@@ -340,12 +349,25 @@ After dividing an A4 page into 8 segments, <br /> I then spent 1 minute for each
 
 </ScrollAnimation>
                     </div>
-
+                    <br></br>
+                    <br></br>
+                    <hr style={{width:"100px"}}/>
+                    <br></br>
+                    <br></br>
+                    <div style={{textAlign: "left"}}> <a style={{ borderBottom:"2px solid #808080" ,color: "#808080"}} href="https://drive.google.com/file/d/1XZfNHCHBcJNLNiCr7thHI8e8cP0NvwmG/view">Google UX certificate</a></div>
+                    <br></br>
+                    <div style={{textAlign: "left"}}> <a style={{ borderBottom:"2px solid #808080" ,color: "#808080"}} href="https://drive.google.com/file/d/1XZfNHCHBcJNLNiCr7thHI8e8cP0NvwmG/view">Accenture UX certificate</a></div>
+                    <br></br>
+                    <br></br>
+                    <hr style={{width:"100px"}}/>
+                    <br></br>
+                    <Link to="/skills"><h1 className="design-text">my skills ➔</h1></Link>
                     <br></br>
                     <br></br>
                     <br></br>
                     <br></br>
-
+                    <br></br>
+                    <br></br>
                 </div>
             </div>)
     }
