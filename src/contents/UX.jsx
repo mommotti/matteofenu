@@ -153,7 +153,16 @@ class About extends Component {
                     <br></br>
 <h1 className="design-text design-text-h">wireframe&prototype demo:</h1>
 <br></br>
-<h2 className="design-text">After dividing a piece of paper into 8 segments, <br /> I then spent 1 minute for each iteration (segment). <br /> Here I display 3 of those iterations.</h2>
+<br></br>
+                    <br></br>
+<h2 className="design-text">The goal of this demonstration is to create a landing page to advertise Trek's Marlin model. <br />
+After dividing a piece of paper into 8 segments, <br /> I then spent 1 minute for each iteration (segment). <br /> Here I display 3 of those iterations.</h2>
+
+<br></br>
+<br></br>
+<img  className="image-card card3"src={require('../img/images/iterations.jpg')} />
+
+                    <br></br>
                     <br></br>
 <ScrollAnimation animateIn="flipInY" animateOnce="True">           
 <img  className="image-card card3"src={require('../img/images/3.jpg')} />
@@ -167,11 +176,7 @@ class About extends Component {
 <img className="image-card card7"src={require('../img/images/7.jpg')} />
 <p>7th, the one I chose.</p>
 </ScrollAnimation>  
-<br></br>
-                    <br></br>
-<h2 className="design-text">This is a landing page for the bike brand "Trek" <br /> The idea was to advertise the Marlin bike model, <br /> while giving a sense of summertime and energy.</h2>
-<p>still under construction. I put it momentarily as a placeholder.</p>
-<br></br>
+
                     <br></br>
 <img style={{ width: "300px"}} src={require('../img/images/phone.png')} />
 
