@@ -294,6 +294,52 @@ After dividing an A4 page into 8 segments, <br /> I then spent 1 minute for each
 </svg>
 </div>
 </div>
+<h3 className="design-text design-text-smol">Color Scheme</h3>
+<div className="bike-icons">
+<div className="icon-proto color1">
+<svg width="70px" height="70px" viewBox="0 0 107 86" version="1.1" xmlns="http://www.w3.org/2000/svg">
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Mockup-Matteo-F." transform="translate(-1195.000000, -79.000000)">
+            <g id="Group-10" transform="translate(1248.609631, 122.029376) rotate(-345.000000) translate(-1248.609631, -122.029376) translate(1202.496133, 90.529376)">
+                <ellipse id="Oval" fill="#BF0F0F" transform="translate(46.000000, 31.500000) rotate(-270.000000) translate(-46.000000, -31.500000) " cx="46" cy="31.5" rx="31.5" ry="46"></ellipse>
+                <text id="#BF0F0F" transform="translate(46.231223, 30.685459) rotate(2.000000) translate(-46.231223, -30.685459) " font-family="OpenSans-Bold, Open Sans" font-size="22" font-weight="bold" fill="#FFFFFF">
+                    <tspan x="0.731222598" y="39.6854586">#BF0F0F</tspan>
+                </text>
+            </g>
+        </g>
+    </g>
+</svg>
+</div>
+<div className="icon-proto color2">
+<svg width="70px" height="70px" viewBox="0 0 107 86" version="1.1" xmlns="http://www.w3.org/2000/svg">
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Mockup-Matteo-F." transform="translate(-1195.000000, -79.000000)">
+            <g id="Group-10" transform="translate(1248.609631, 122.029376) rotate(-345.000000) translate(-1248.609631, -122.029376) translate(1202.496133, 90.529376)">
+                <ellipse id="Oval" fill="#F26444" transform="translate(46.000000, 31.500000) rotate(-270.000000) translate(-46.000000, -31.500000) " cx="46" cy="31.5" rx="31.5" ry="46"></ellipse>
+                <text id="#F26444" transform="translate(46.231223, 30.685459) rotate(2.000000) translate(-46.231223, -30.685459) " font-family="OpenSans-Bold, Open Sans" font-size="22" font-weight="bold" fill="#FFFFFF">
+                    <tspan x="0.731222598" y="39.6854586">#F26444</tspan>
+                </text>
+            </g>
+        </g>
+    </g>
+</svg>
+</div>
+<div className="icon-proto color3">
+<svg width="70px" height="70px" viewBox="0 0 107 86" version="1.1" xmlns="http://www.w3.org/2000/svg">
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Mockup-Matteo-F." transform="translate(-1195.000000, -79.000000)">
+            <g id="Group-10" transform="translate(1248.609631, 122.029376) rotate(-345.000000) translate(-1248.609631, -122.029376) translate(1202.496133, 90.529376)">
+                <ellipse id="Oval" fill="#130740" transform="translate(46.000000, 31.500000) rotate(-270.000000) translate(-46.000000, -31.500000) " cx="46" cy="31.5" rx="31.5" ry="46"></ellipse>
+                <text id="#130740" transform="translate(46.231223, 30.685459) rotate(2.000000) translate(-46.231223, -30.685459) " font-family="OpenSans-Bold, Open Sans" font-size="22" font-weight="bold" fill="#FFFFFF">
+                    <tspan x="0.731222598" y="39.6854586">#130740</tspan>
+                </text>
+            </g>
+        </g>
+    </g>
+</svg>
+</div>
+</div>
+
 </ScrollAnimation>
                     </div>
                     <br></br>
