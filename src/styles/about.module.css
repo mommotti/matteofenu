@@ -16,9 +16,27 @@
     width: 200px;
     margin:0px  20px 30px 20px;
   }
+  .icon-proto{
+    width: 90px;
+    margin: 5px;
+    border-radius: 50%;
+
+  }
+  .bike-icons{
+    display: flex;
+  }
+  .icon1{
+    filter: drop-shadow(5px 0px 0px rgba(156, 90, 233, 0.5)); 
+  }
+  .icon2{
+    filter: drop-shadow(5px 0px 0px rgba(105, 86, 231, 0.5)); 
+  }
+  .icon3{
+    filter: drop-shadow(5px 0px 0px rgba(60, 93, 255, 0.5)); 
+  }
+
   .image-phone{
     width: 300px;
-    margin:0px  20px 30px 20px;
   }
   .card-wrap{
     display: flex;

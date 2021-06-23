@@ -195,7 +195,8 @@ After dividing a piece of paper into 8 segments, <br /> I then spent 1 minute fo
 <img  className="image-phone" src={require('../img/images/detail.jpg')} />
 <h3 className="design-text design-text-smol">Icons made with Adobe AI</h3>
 <div className="bike-icons">
-<svg width="152px" height="152px" viewBox="0 0 152 152" version="1.1" xmlns="http://www.w3.org/2000/svg">
+<div className="icon-proto icon1">
+<svg width="90px" height="90px" viewBox="0 0 152 152" version="1.1" xmlns="http://www.w3.org/2000/svg">
     <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
         <g id="Mockup-Matteo-F." transform="translate(-1019.000000, -91.000000)" stroke="#1D1D1B">
             <g id="wheel" transform="translate(1023.992561, 95.992561)">
@@ -241,8 +242,9 @@ After dividing a piece of paper into 8 segments, <br /> I then spent 1 minute fo
         </g>
     </g>
 </svg>
-
-<svg width="150px" height="150px" viewBox="0 0 150 150" version="1.1" xmlns="http://www.w3.org/2000/svg">
+</div>
+<div className="icon-proto icon2">
+<svg width="90px" height="90px" viewBox="0 0 150 150" version="1.1" xmlns="http://www.w3.org/2000/svg">
     <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
         <g id="Mockup-Matteo-F." transform="translate(-1442.000000, -63.000000)">
             <g id="gear" transform="translate(1442.000000, 63.000000)">
@@ -278,8 +280,9 @@ After dividing a piece of paper into 8 segments, <br /> I then spent 1 minute fo
         </g>
     </g>
 </svg>
-
-<svg width="153px" height="151px" viewBox="0 0 153 151" version="1.1" xmlns="http://www.w3.org/2000/svg">
+</div>
+<div className="icon-proto icon3">
+<svg width="90px" height="90px" viewBox="0 0 153 151" version="1.1" xmlns="http://www.w3.org/2000/svg">
     <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
         <g id="Mockup-Matteo-F." transform="translate(-1317.000000, -174.000000)" fill="#1D1D1B" fill-rule="nonzero">
             <g id="chiacacc" transform="translate(1317.000000, 174.000000)">
@@ -289,6 +292,7 @@ After dividing a piece of paper into 8 segments, <br /> I then spent 1 minute fo
         </g>
     </g>
 </svg>
+</div>
 </div>
 </ScrollAnimation>
                     </div>
