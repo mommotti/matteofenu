@@ -13,10 +13,19 @@
     width: 100%;
   }
   .image-card{
-    width: 300px;
-    margin: 30px 0;
+    width: 200px;
+    margin:0px  20px 30px 20px;
   }
-  
+  .image-phone{
+    width: 300px;
+    margin:0px  20px 30px 20px;
+  }
+  .card-wrap{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+  }
   .card3{    
     box-shadow: 10px 15px #9c5ae9;
   }
@@ -28,7 +37,6 @@
   }
 
   .design-text{
-    background-color: red;
     font-weight: 800;
     border-bottom: 5px solid #667EEA;
     /* Create the gradient. */
@@ -46,7 +54,11 @@
   }
   .design-text-h{
     border-bottom: 8px solid #667EEA;
-    width: 50%;
+    width: 75%;
+  }
+  .design-text-smol{
+    border-bottom: 3px solid #667EEA;
+    width: 75%;
   }
   .design-text-home {
     margin-top: 40px;
@@ -81,6 +93,14 @@
     color:black;
     text-decoration: underline;
   }
+.test-phone{
+  width: 100%;
+  margin:0 auto;
+display: grid;
+  justify-content: center;
+  align-items:center;
+}
+
   @media only screen and (min-width: 992px) {
     .ux-w{
       margin: auto;
@@ -94,5 +114,11 @@
     }
     .design-text-h{
       width: 100%;
+    }
+    .card-wrap{
+      flex-direction: column;
+    }
+    .image-card{
+      width: 300px;
     }
   }
