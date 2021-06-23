@@ -183,7 +183,7 @@ After dividing a piece of paper into 8 segments, <br /> I then spent 1 minute fo
 
 </div>
 
-                    <div className="card-wrap">
+                    {/* <div className="card-wrap">
                     <ScrollAnimation animateIn="fadeIn" animateOnce="True">
                     <h3 className="design-text design-text-smol">Final prototype, made using Sketch</h3>
 <img  className="image-phone" src={require('../img/images/phone.jpg')} />
@@ -295,7 +295,7 @@ After dividing a piece of paper into 8 segments, <br /> I then spent 1 minute fo
 </div>
 </div>
 </ScrollAnimation>
-                    </div>
+                    </div> */}
                     <br></br>
                     <br></br>
                     <br></br>   <br></br>
