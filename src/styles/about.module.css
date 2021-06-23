@@ -17,7 +17,7 @@
     margin:0px  20px 30px 20px;
   }
   .icon-proto{
-    width: 90px;
+    width: 70px;
     margin: 5px;
     border-radius: 50%;
 
@@ -137,6 +137,9 @@ display: grid;
       flex-direction: column;
     }
     .image-card{
-      width: 300px;
+      width: 250px;
+    }
+    .image-phone{
+      width: 250px;
     }
   }
