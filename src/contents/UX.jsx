@@ -190,7 +190,7 @@ After dividing an A4 page into 8 segments, <br /> I then spent 1 minute for each
 <br></br>
                     <div className="card-wrap">
                     <ScrollAnimation animateIn="fadeIn" animateOnce="True">
-                    <h3 className="design-text design-text-smol">Final prototype, made with Sketch</h3>
+                    <h3 className="design-text design-text-smol">Final prototype, <br></br>made with Sketch</h3>
 <img  className="image-phone" src={require('../img/images/phone.jpg')} />
 </ScrollAnimation>
         <br></br>
