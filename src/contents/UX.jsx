@@ -352,7 +352,7 @@ After dividing an A4 page into 8 segments, <br /> I then spent 1 minute for each
                     </div>
                     <br></br>
                     <br></br>
-                    <hr style={{width:"150px"}}/>
+                    <hr style={{width:"200px"}}/>
                     <br></br>
                     <br></br>
                     <div style={{textAlign: "center",width:"100px"}}> <a style={{ borderBottom:"2px solid #808080" ,color: "#808080"}} href="https://drive.google.com/file/d/1XZfNHCHBcJNLNiCr7thHI8e8cP0NvwmG/view" target="_blank">Google UX certificate</a></div>
@@ -360,7 +360,7 @@ After dividing an A4 page into 8 segments, <br /> I then spent 1 minute for each
                     <div style={{textAlign: "center",width:"100px"}}> <a style={{ borderBottom:"2px solid #808080" ,color: "#808080"}} href="https://www.futurelearn.com/certificates/45vt4p4" target="_blank">Accenture UX certificate</a></div>
                     <br></br>
                     <br></br>
-                    <hr style={{width:"150px"}}/>
+                    <hr style={{width:"200px"}}/>
                     <br></br>
                     <Link to="/skills"><h1 className="design-text">my skills ➔</h1></Link>
                     <br></br>
