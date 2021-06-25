@@ -46,7 +46,7 @@ class About extends Component {
                     <br></br>I start with pencil and paper, sticky notes, allowing myself to quickly record my thoughts and ideas on paper without any delay.
                     <br></br>When it comes to the user journey, the user needs to understand the app at ease. 
                     <br></br>For this reason, there is a need to quickly iterate over the wireframes that are not so intuitive, making them intuitive and clean.
-                    <br></br>My approach to quickly re-create a part of the wireframe is to take an A4 paper and divide it into 8 equal parts. I then set an 8 minute timer, forcing myself to quickly draw each wireframe in just 1 minute each.
+                    <br></br>My approach to quickly re-create a part of the wireframe is to take an A4 paper and divide it into 8 equal parts. I then set an 8 minute timer, drawing each wireframe in just 1 minute.
                     Once I'm happy with the wireframes, I translate the design into prototypes with apps such as Adobe XD, Figma or Sketch.
                     </ScrollAnimation>
                     </p>
