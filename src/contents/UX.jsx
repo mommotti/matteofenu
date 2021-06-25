@@ -6,7 +6,7 @@ class About extends Component {
     render() {
         return (
             <div className="condiv skills-height">
-                <h1 className="subtopic">My love for UX  <br></br><span style={{fontSize: "0.5em"}}>\(^o^)/</span></h1>
+                <h1 className="subtopic">UX  <br></br><span style={{fontSize: "0.5em"}}>\(^o^)/</span></h1>
                 <div className="about ux-w">
                     <h3 style={{backgroundColor: "rgba(255, 255, 139, 0.5)"}}>Due to my love for design, I've enrolled in <a  style={{color: "black", fontWeight: 700, textDecoration: "underline"}} href="https://www.coursera.org/professional-certificates/google-ux-design" target="_blank">Google UX Design Professional Certificate. <br /></a>My first certificate is available at the bottom of this page.</h3>
                     <h3>I am quick at learning and applying new technologies and information, especially when I'm passionate about a topic. For me, UX design wraps up this concept perfectly.</h3>    
