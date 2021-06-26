@@ -46,7 +46,7 @@ class About extends Component {
                     <br></br>I start with pencil and paper, sticky notes, allowing myself to quickly record my thoughts and ideas on paper without any delay.
                     <br></br>When it comes to the user journey, the user needs to understand the app at ease. 
                     <br></br>For this reason, there is a need to quickly iterate over the wireframes that are not so intuitive, making them intuitive and clean.
-                    <br></br>My approach to quickly re-create a part of the wireframe is to take an A4 paper and divide it into 8 equal parts. I then set an 8 minute timer, drawing each wireframe in just 1 minute.
+                    <br></br>My approach is using the Crazy 8s design sprint method. This method is about taking an A4 paper and divide it into 8 equal parts. I then set an 8 minute timer, drawing each wireframe in just 1 minute.
                     Once I'm happy with the wireframes, I translate the design into prototypes with apps such as Adobe XD, Figma or Sketch.
                     </ScrollAnimation>
                     </p>
@@ -157,8 +157,8 @@ class About extends Component {
 <br></br>
 <br></br>
                     <br></br>
-<h2 className="design-text">The goal of this demonstration is to create a landing page to advertise Trek's Marlin model (a bike). <br />
-After dividing an A4 page into 8 segments, <br /> I then spent 1 minute for each wireframe. <br /></h2>
+<h2 className="design-text">The goal of this demonstration is to create a landing page to advertise a bike, Trek's Marlin model. <br />
+In order to find a suitable design, I employ the crazy 8s design sprint method. <br /></h2>
 <br></br>
 <img className="image-ux"src={require('../img/images/iterations.jpg')} />
 <br></br>
