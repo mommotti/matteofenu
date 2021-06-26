@@ -7,7 +7,7 @@ class About extends Component {
         return (
             <div className="condiv skills-height">
                 <h1 className="subtopic">UX  <br></br><span style={{fontSize: "0.5em"}}>\(^o^)/</span></h1>
-                <div className="about ux-w">
+                <div className="about about_me">
                     <h3 style={{backgroundColor: "rgba(255, 255, 139, 0.5)"}}>Due to my love for design, I've enrolled in <a  style={{color: "black", fontWeight: 700, textDecoration: "underline"}} href="https://www.coursera.org/professional-certificates/google-ux-design" target="_blank">Google UX Design Professional Certificate. <br /></a>My first certificate is available at the bottom of this page.</h3>
                     <h3>I am quick at learning and applying new technologies and information, especially when I'm passionate about a topic. For me, UX design wraps up this concept perfectly.</h3>    
                     <br></br>
@@ -200,6 +200,7 @@ In order to find a suitable design, I employ the crazy 8s design sprint method. 
 <img  className="image-phone" src={require('../img/images/detail.jpg')} />
 </div>  
 <br></br>
+<div className="icon-color-scheme">
 <h3 className="design-text design-text-smol">Icons made with Adobe AI</h3>
 <div className="bike-icons">
 <div className="icon-proto icon1">
@@ -345,6 +346,7 @@ In order to find a suitable design, I employ the crazy 8s design sprint method. 
         </g>
     </g>
 </svg>
+</div>
 </div>
 </div>
 
