@@ -17,7 +17,7 @@ I’ve always been intrigued by how a thoughtful design has the ability to chang
 <div className="dividor-mini"></div>
 <div style={{textAlign: "left"}}> <a style={{ borderBottom:"2px solid blue" ,color: "blue"}} href="mailto:matfen97@gmail.com">matfen97@gmail.com</a></div>
 <div className="dividor"></div>
-<hr style={{color: "#e0bbe4"}}/>
+<hr style={{color: "#e0bbe4", border: "none"}}/>
 <div className="dividor-mini"></div>
 “The design It's not just what it looks like and feels like. Design is how it works.” - Steve Jobs
 </p>
