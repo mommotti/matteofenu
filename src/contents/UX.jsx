@@ -50,15 +50,9 @@ class About extends Component {
                     Once I'm happy with the wireframes, I translate the design into prototypes with apps such as Adobe XD, Figma or Sketch.
                     </ScrollAnimation>
                     </p>
-
-                    <br></br>
-                    <br></br>
-                    <br></br>
-                    <br></br>
-
                     <ScrollAnimation animateIn="fadeIn" animateOnce="True">
                     
-<svg width="200px" height="470px" viewBox="0 0 167 429" version="1.1" xmlns="http://www.w3.org/2000/svg" >
+<svg style={{marginTop:"30px"}} width="200px" height="470px" viewBox="0 0 167 429" version="1.1" xmlns="http://www.w3.org/2000/svg" >
     <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
         <g id="-" transform="translate(-116.000000, -42.000000)">
             <g id="Group-10" transform="translate(116.000000, 42.000000)">
@@ -150,22 +144,26 @@ class About extends Component {
     </g>
 </svg>
 </ScrollAnimation>  
-                    <br></br>
-                    <br></br>
-                    <br></br>
+
+                    <div className="dividor"></div>
+
 <h1 className="design-text design-text-h">wireframe&prototype demo:</h1>
-<br></br>
-<br></br>
-                    <br></br>
+
+<div className="dividor"></div>
+
 <h2 className="design-text">The goal of this demonstration is to create a landing page to advertise a bike, Trek's Marlin model. <br />
 In order to find a suitable design, I employ the crazy 8s design sprint method. <br /></h2>
-<br></br>
+
+<div className="dividor-mini"></div>
+
 <img className="image-ux"src={require('../img/images/iterations.jpg')} />
-<br></br>
-<br></br>
+
+<div className="dividor-medium"></div>
+
 <h2 className="design-text">here I display 3 of those iterations
 </h2>
-<br></br>
+<div className="dividor-mini"></div>
+
 <div className="card-wrap">
 
 <ScrollAnimation animateIn="flipInY" animateOnce="True">           
@@ -184,22 +182,23 @@ In order to find a suitable design, I employ the crazy 8s design sprint method. 
 </ScrollAnimation>  
 
 </div>
-<br></br>
+<div className="dividor-mini"></div>
+
 <h2 className="design-text">branding & prototyping
 </h2>
-<br></br>
+<div className="dividor-mini"></div>
                     <div className="card-wrap">
                     <ScrollAnimation animateIn="fadeIn" animateOnce="True">
                     <h3 className="design-text design-text-smol">Final prototype, <br></br>made with Sketch</h3>
 <img  className="image-phone" src={require('../img/images/phone.jpg')} />
 </ScrollAnimation>
-        <br></br>
+<div className="dividor-mini"></div>
                     <ScrollAnimation animateIn="fadeIn" animateOnce="True">
                     <div>
 <h3 className="design-text design-text-smol">Design details</h3>
 <img  className="image-phone" src={require('../img/images/detail.jpg')} />
 </div>  
-<br></br>
+<div className="dividor-mini"></div>
 <div className="icon-color-scheme">
 <h3 className="design-text design-text-smol">Icons made with Adobe AI</h3>
 <div className="bike-icons">
@@ -302,7 +301,7 @@ In order to find a suitable design, I employ the crazy 8s design sprint method. 
 </svg>
 </div>
 </div>
-<br></br>
+<div className="dividor-mini"></div>
 <h3 className="design-text design-text-smol">Color Scheme</h3>
 <div className="bike-icons">
 <div className="icon-proto color1">
@@ -352,25 +351,19 @@ In order to find a suitable design, I employ the crazy 8s design sprint method. 
 
 </ScrollAnimation>
                     </div>
-                    <br></br>
-                    <br></br>
+                    <div className="dividor-medium"></div>
                     <hr style={{width:"100px"}}/>
-                    <br></br>
-                    <br></br>
+                    <div className="dividor-medium"></div>
+
                     <div style={{textAlign: "center",width:"200px"}}> <a style={{ borderBottom:"2px solid #808080" ,color: "#808080"}} href="https://drive.google.com/file/d/1XZfNHCHBcJNLNiCr7thHI8e8cP0NvwmG/view" target="_blank">Google UX certificate</a></div>
-                    <br></br>
+                    <div className="dividor-mini"></div>
                     <div style={{textAlign: "center",width:"200px"}}> <a style={{ borderBottom:"2px solid #808080" ,color: "#808080"}} href="https://www.futurelearn.com/certificates/45vt4p4" target="_blank">Accenture UX certificate</a></div>
-                    <br></br>
-                    <br></br>
+                    <div className="dividor-medium"></div>
                     <hr style={{width:"100px"}}/>
-                    <br></br>
+                    <div className="dividor-mini"></div>
                     <Link to="/skills"><h1 className="design-text">my skills ➔</h1></Link>
-                    <br></br>
-                    <br></br>
-                    <br></br>
-                    <br></br>
-                    <br></br>
-                    <br></br>
+                    <div className="dividor"></div>
+                    <div className="dividor"></div>
                 </div>
             </div>)
     }

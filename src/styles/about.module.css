@@ -131,6 +131,15 @@ display: grid;
   align-items:center;
 }
 
+.dividor{
+  height: 50px;
+}
+.dividor-medium{
+  height: 25px;
+}
+.dividor-mini{
+height: 17px;
+}
 
   /* Home */
   @media only screen and (max-width: 600px) {
