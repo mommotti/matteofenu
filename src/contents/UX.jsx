@@ -359,11 +359,11 @@ In order to find a suitable design, I employ the crazy 8s design sprint method. 
 <h1 className="design-text design-text-h">lo-fi to hi-fi veterinarian app:</h1>
 <div className="dividor-medium"></div>
 <h3 className="design-text design-text-smol">lo-fi</h3>
-<img className="image-ux"src={require('../img/images/lofi.png')} />
+<img className="image-ux"src={require('../img/images/lofi.jpg')} />
 <div className="dividor-medium"></div>
 
 <h3 className="design-text design-text-smol">hi-fi</h3>
-<img className="image-ux"src={require('../img/images/hifi.png')} />
+<img className="image-ux"src={require('../img/images/hifi.jpg')} />
 <div className="dividor-medium"></div>
 <h3 className="design-text design-text-smol">Try the prototype!</h3>
 <div className="dividor-mini"></div>
