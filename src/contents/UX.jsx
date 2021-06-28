@@ -1,10 +1,13 @@
 import React, { Component } from 'react';
 import ScrollAnimation from 'react-animate-on-scroll';
 import { Link } from "react-router-dom";
+import Iframe from 'react-iframe'
 
 class About extends Component {
     render() {
         return (
+
+
             <div className="condiv skills-height">
                 <h1 className="subtopic">UX  <br></br><span style={{fontSize: "0.5em"}}>\(^o^)/</span></h1>
                 <div className="about about_me">
@@ -348,9 +351,22 @@ In order to find a suitable design, I employ the crazy 8s design sprint method. 
 </div>
 </div>
 </div>
-
 </ScrollAnimation>
-                    </div>
+</div>
+<div className="dividor-medium"></div>
+<div className="dividor-medium"></div>
+<div className="dividor-medium"></div>
+<h1 className="design-text design-text-h">Figma hi-fi demo Veterinarian app:</h1>
+
+<Iframe url="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FByfD4NAagsg5OiZrON1eTV%2FVetApp-demo-find-a-veterinariar-near-you.%3Fpage-id%3D0%253A1%26node-id%3D25%253A104%26viewport%3D311%252C90%252C0.3364822268486023%26scaling%3Dscale-down"
+        width="300px"
+        height="550px"
+        id="myId"
+        className="myClassname"
+        display="initial"
+        position="relative"/>
+
+                    <div className="dividor-medium"></div>
                     <div className="dividor-medium"></div>
                     <div className="dividor-medium"></div>
                     <hr style={{width:"100px"}}/>
