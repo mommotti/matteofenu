@@ -352,15 +352,16 @@ In order to find a suitable design, I employ the crazy 8s design sprint method. 
 </ScrollAnimation>
                     </div>
                     <div className="dividor-medium"></div>
-                    <hr style={{width:"100px"}}/>
                     <div className="dividor-medium"></div>
-
+                    <hr style={{width:"100px"}}/>
+                    <div className="dividor-mini"></div>
                     <div style={{textAlign: "center",width:"200px"}}> <a style={{ borderBottom:"2px solid #808080" ,color: "#808080"}} href="https://drive.google.com/file/d/1XZfNHCHBcJNLNiCr7thHI8e8cP0NvwmG/view" target="_blank">Google UX certificate</a></div>
                     <div className="dividor-mini"></div>
                     <div style={{textAlign: "center",width:"200px"}}> <a style={{ borderBottom:"2px solid #808080" ,color: "#808080"}} href="https://www.futurelearn.com/certificates/45vt4p4" target="_blank">Accenture UX certificate</a></div>
                     <div className="dividor-medium"></div>
                     <hr style={{width:"100px"}}/>
-                    <div className="dividor-mini"></div>
+                    <div className="dividor"></div>
+                    <div className="dividor-medium"></div>
                     <Link to="/skills"><h1 className="design-text">my skills ➔</h1></Link>
                     <div className="dividor"></div>
                     <div className="dividor"></div>
