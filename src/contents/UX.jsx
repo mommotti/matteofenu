@@ -356,19 +356,23 @@ In order to find a suitable design, I employ the crazy 8s design sprint method. 
 <div className="dividor-medium"></div>
 <div className="dividor-medium"></div>
 <div className="dividor-medium"></div>
-<h1 className="design-text design-text-h">Figma hi-fi demo Veterinarian app:</h1>
+<h1 className="design-text design-text-h">lo-fi to hi-fi veterinarian app:</h1>
+<div className="dividor-medium"></div>
+<h3 className="design-text design-text-smol">lo-fi</h3>
+<img className="image-ux"src={require('../img/images/lofi.png')} />
+<div className="dividor-medium"></div>
 
-<Iframe url="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FByfD4NAagsg5OiZrON1eTV%2FVetApp-demo-find-a-veterinariar-near-you.%3Fpage-id%3D0%253A1%26node-id%3D25%253A104%26viewport%3D311%252C90%252C0.3364822268486023%26scaling%3Dscale-down"
-        width="300px"
-        height="550px"
-        id="myId"
-        className="myClassname"
-        display="initial"
-        position="relative"/>
+<h3 className="design-text design-text-smol">hi-fi</h3>
+<img className="image-ux"src={require('../img/images/hifi.png')} />
+<div className="dividor-medium"></div>
+<h3 className="design-text design-text-smol">Try the prototype!</h3>
+<div className="dividor-mini"></div>
+<h3><a  style={{color: "blue", fontWeight: 700, textDecoration: "underline"}} href="https://www.figma.com/proto/ByfD4NAagsg5OiZrON1eTV/VetApp-demo-find-a-veterinariar-near-you.?page-id=0%3A1&node-id=10%3A30&viewport=372%2C-119%2C0.6729644536972046&scaling=scale-down" target="_blank">Click here and try the demo.</a></h3>
+<div className="dividor-medium"></div>
+<img  className="image-phone" src={require('../img/images/vet.png')} />
+<div className="dividor-medium"></div>
+<div className="dividor"></div>
 
-                    <div className="dividor-medium"></div>
-                    <div className="dividor-medium"></div>
-                    <div className="dividor-medium"></div>
                     <hr style={{width:"100px"}}/>
                     <div className="dividor-mini"></div>
                     <div style={{textAlign: "center",width:"200px"}}> <a style={{ borderBottom:"2px solid #808080" ,color: "#808080"}} href="https://drive.google.com/file/d/1XZfNHCHBcJNLNiCr7thHI8e8cP0NvwmG/view" target="_blank">Google UX certificate</a></div>
