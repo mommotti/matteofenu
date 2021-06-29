@@ -6,7 +6,6 @@ class Navitem extends Component {
             <li id={this.props.item}>
                 <Link to={this.props.tolink} onClick={this.props.active.bind(this, this.props.item)}>
                     {this.props.item}</Link>
-                    <hr />
             </li>
         )
     }
