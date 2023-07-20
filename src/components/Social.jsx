@@ -12,7 +12,7 @@ class Social extends Component {
                 </div>
                 <div copy-hr>
                     <hr class="social-distancing"></hr>
-                    <p>&copy; 2021 Matteo Fenu</p>
+                    <p>&copy; 2023 Matteo Fenu</p>
                 </div>
             </div>
         )
