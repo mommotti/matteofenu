@@ -20,7 +20,7 @@
     "react-tilt": "^0.1.4"
   },
   "scripts": {
-    "start": "react-scripts --openssl-legacy-provider start",
+    "start": "react-scripts start",
     "build": "CI=false && react-scripts build && echo '/* /index.html 200' | cat >build/_redirects",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
